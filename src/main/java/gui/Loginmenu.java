@@ -204,7 +204,8 @@ public class Loginmenu extends javax.swing.JFrame {
 	Dashboard dashboard = new Dashboard();
         this.dispose();
 	dashboard.setVisible(true);
-		return;}}					
+		return;}}
+    
 	
     }//GEN-LAST:event_jButton1ActionPerformed
     
