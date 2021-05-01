@@ -20,6 +20,9 @@ public class Registermenu extends javax.swing.JFrame {
     public Registermenu(JFrame previousFrame) {
         initComponents();
         this.previousFrame=previousFrame;
+           setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+        setResizable(false);
+        setLocationRelativeTo(null);
     }
 
     private Registermenu() {

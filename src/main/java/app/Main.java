@@ -1,6 +1,7 @@
 
 package app;
 
+import gui.Dashboard;
 import gui.MainMenu;
 
 public class Main {

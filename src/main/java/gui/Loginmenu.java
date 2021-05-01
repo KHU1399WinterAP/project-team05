@@ -5,6 +5,7 @@
  */
 package gui;
 
+import javax.swing.JFrame;
 import models.user;
 
 /**
@@ -14,10 +15,13 @@ import models.user;
 public class Loginmenu extends javax.swing.JFrame {
 
     /**
-     * Creates new form Loginmenu
+     * Creates new form 
      */
     public Loginmenu() {
         initComponents();
+           setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+        setResizable(false);
+        setLocationRelativeTo(null);
     }
 
     /**

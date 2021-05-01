@@ -5,6 +5,8 @@
  */
 package gui;
 
+import javax.swing.JFrame;
+
 /**
  *
  * @author myPC
@@ -16,6 +18,9 @@ public class MainMenu extends javax.swing.JFrame {
      */
     public MainMenu() {
         initComponents();
+        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        setResizable(false);
+        setLocationRelativeTo(null);
     }
 
     /**
