@@ -1,8 +1,8 @@
 
 package app;
 
-import gui.Dashboard;
-import gui.MainMenu;
+import gui.dashboard.Dashboard;
+import gui.mainmenu.MainMenu;
 
 public class Main {
     public static void main(String [] args){

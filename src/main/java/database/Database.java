@@ -1,4 +1,4 @@
-package gui;
+package database;
 
 
 import com.mysql.cj.xdevapi.Statement;
