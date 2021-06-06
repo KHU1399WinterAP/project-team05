@@ -12,9 +12,9 @@ This game is made by the hrm group, which is actually the university project of 
 + [Bijan Eisapor](https://github.com/BijanKHU)
 
 ## The tools used to build this project :
-+ Apache netbeans  (for download click [here])(https://netbeans.apache.org/download/index.html)
-+ MYSQL Workbench(for database and authentication System) for download click [here](https://dev.mysql.com/downloads/workbench/)
-+ MYSQl connector java for download click [here](https://search.maven.org/artifact/mysql/mysql-connector-java/8.0.24/jar)
++ Apache netbeans  (for download click [here](https://netbeans.apache.org/download/index.html))
++ MYSQL Workbench(for database and authentication System) (for download click [here](https://dev.mysql.com/downloads/workbench/))
++ MYSQl connector java (for download click [here](https://search.maven.org/artifact/mysql/mysql-connector-java/8.0.24/jar))
 
 
 
