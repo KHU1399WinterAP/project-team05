@@ -5,11 +5,11 @@ import gui.dashboard.Dashboard;
 import java.awt.Color;
 import static java.awt.Color.white;
 import javax.swing.JFrame;
-import models.user;
+import models.User;
 
-public class newpass extends javax.swing.JFrame {
+public class NewPassword extends javax.swing.JFrame {
 
-    public newpass() {
+    public NewPassword() {
         initComponents();
         setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         setResizable(false);
@@ -226,7 +226,7 @@ public class newpass extends javax.swing.JFrame {
 
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new newpass().setVisible(true);
+                new NewPassword().setVisible(true);
             }
         });
     }

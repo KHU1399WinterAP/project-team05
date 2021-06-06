@@ -9,7 +9,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.*;
 import java.util.ArrayList;
-import models.user;
+import models.User;
 
 public class Database {
 
@@ -24,13 +24,13 @@ public class Database {
         }
     }
 
-    public ArrayList<user> selectAlluser() {
+    public ArrayList<User> selectAlluser() {
         try {
-            var users = new ArrayList<user>();
+            var users = new ArrayList<User>();
             PreparedStatement statement = (PreparedStatement) connection.createStatement();
             ResultSet resultSet = statement.executeQuery("SELECT * FROM user");
             while (resultSet.next()) {
-                user user = new user(resultSet.getString("username"), resultSet.getString("password"));
+                User user = new User(resultSet.getString("username"), resultSet.getString("password"));
                 users.add(user);
             }
             return users;
@@ -40,7 +40,7 @@ public class Database {
         }
     }
 
-    public static void insertIntoUser(user user) {
+    public static void insertIntoUser(User user) {
         try {
             PreparedStatement statement = connection.prepareStatement("INSERT INTO user VALUES(?, ?)");
             statement.setString(1, user.username);
@@ -52,7 +52,7 @@ public class Database {
         }
     }
 
-    public static user getUserByUsername(String username) {
+    public static User getUserByUsername(String username) {
         try {
             PreparedStatement statement = connection.prepareStatement("SELECT * FROM user WHERE username = ?");
             statement.setString(1, username);
@@ -60,7 +60,7 @@ public class Database {
             ResultSet resultSet = statement.executeQuery();
 
             if (resultSet.next()) {
-                return new user(resultSet.getString("username"), resultSet.getString("password"));
+                return new User(resultSet.getString("username"), resultSet.getString("password"));
             }
         } catch (SQLException throwables) {
             throwables.printStackTrace();

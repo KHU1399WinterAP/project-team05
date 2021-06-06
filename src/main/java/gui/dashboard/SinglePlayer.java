@@ -1,16 +1,16 @@
 package gui.dashboard;
 
 import gui.dashboard.Dashboard;
-import gui.pictable.first1;
-import gui.hangman.hangman;
+import gui.pictable.Pic_Table_1;
+import gui.hangman.Hang_man_1;
 import java.awt.Color;
 import static java.awt.Color.white;
 import javax.print.attribute.standard.Media;
 import javax.swing.JFrame;
 
-public class selectgame extends javax.swing.JFrame {
+public class SinglePlayer extends javax.swing.JFrame {
 
-    public selectgame() {
+    public SinglePlayer() {
         initComponents();
         setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         setResizable(false);
@@ -163,7 +163,7 @@ public class selectgame extends javax.swing.JFrame {
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
 
-        first1 s = new first1();
+        Pic_Table_1 s = new Pic_Table_1();
         s.setVisible(true);
         this.dispose();
         Color f = panel1.getBackground();
@@ -176,7 +176,7 @@ public class selectgame extends javax.swing.JFrame {
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
 
-        hangman hangman = new hangman();
+        Hang_man_1 hangman = new Hang_man_1();
         this.dispose();
         hangman.setVisible(true);
         Color f = panel1.getBackground();
@@ -190,7 +190,7 @@ public class selectgame extends javax.swing.JFrame {
 
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new selectgame().setVisible(true);
+                new SinglePlayer().setVisible(true);
             }
         });
     }

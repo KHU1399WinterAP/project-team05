@@ -1,15 +1,15 @@
 package gui.pictable;
 
-import gui.dashboard.selectgame;
-import gui.dashboard.win;
+import gui.dashboard.SinglePlayer;
+import gui.dashboard.Win;
 import java.awt.Color;
 import static java.awt.Color.orange;
 import static java.awt.Color.white;
 import javax.swing.JFrame;
 
-public class fourth extends javax.swing.JFrame {
+public class Pic_Table_4 extends javax.swing.JFrame {
 
-    public fourth() {
+    public Pic_Table_4() {
         initComponents();
         setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         setResizable(false);
@@ -348,13 +348,13 @@ public class fourth extends javax.swing.JFrame {
         jButton5.setFont(new java.awt.Font("Urdu Typesetting", 3, 18)); // NOI18N
         jButton5.setText("4");
 
-        jLabel2.setIcon(new javax.swing.ImageIcon("C:\\Users\\myPC\\Downloads\\siatik.jpg")); // NOI18N
+        jLabel2.setIcon(new javax.swing.ImageIcon("D:\\project\\project asli\\project-team05\\aftabe\\src\\main\\java\\resources\\icons\\siatik.jpg")); // NOI18N
 
-        jLabel1.setIcon(new javax.swing.ImageIcon("C:\\Users\\myPC\\Downloads\\robat.jpg")); // NOI18N
+        jLabel1.setIcon(new javax.swing.ImageIcon("D:\\project\\project asli\\project-team05\\aftabe\\src\\main\\java\\resources\\icons\\robat.jpg")); // NOI18N
 
-        jLabel3.setIcon(new javax.swing.ImageIcon("C:\\Users\\myPC\\Downloads\\shikposh.jpg")); // NOI18N
+        jLabel3.setIcon(new javax.swing.ImageIcon("D:\\project\\project asli\\project-team05\\aftabe\\src\\main\\java\\resources\\icons\\shikposh.jpg")); // NOI18N
 
-        jLabel4.setIcon(new javax.swing.ImageIcon("C:\\Users\\myPC\\Downloads\\saksiphone.jpg")); // NOI18N
+        jLabel4.setIcon(new javax.swing.ImageIcon("D:\\project\\project asli\\project-team05\\aftabe\\src\\main\\java\\resources\\icons\\saksiphone.jpg")); // NOI18N
 
         javax.swing.GroupLayout panel1Layout = new javax.swing.GroupLayout(panel1);
         panel1.setLayout(panel1Layout);
@@ -487,7 +487,7 @@ public class fourth extends javax.swing.JFrame {
             b5.setBackground(Color.green);
             b6.setBackground(Color.green);
             b7.setBackground(Color.green);
-            win win = new win();
+            Win win = new Win();
             win.setVisible(true);
             this.dispose();
             Color f = panel2.getBackground();
@@ -524,7 +524,6 @@ public class fourth extends javax.swing.JFrame {
                 h.setBackground(Color.red);
                 i.setBackground(Color.red);
                 j.setBackground(Color.red);
-                c.setBackground(Color.red);
             }
             if (user[11].equals("s") && user[12].equals("h") && user[13].equals("i") && user[14].equals("k")
                     && user[15].equals("p") && user[16].equals("o") && user[17].equals("s") && user[18].equals("h")) {
@@ -564,7 +563,6 @@ public class fourth extends javax.swing.JFrame {
                 b5.setBackground(Color.red);
                 b6.setBackground(Color.red);
                 b7.setBackground(Color.red);
-                a6.setBackground(Color.red);
             }
 
         }
@@ -572,7 +570,7 @@ public class fourth extends javax.swing.JFrame {
 
     private void jButton10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton10ActionPerformed
 
-        fourth first1 = new fourth();
+        Pic_Table_4 first1 = new Pic_Table_4();
         this.setVisible(false);
         first1.setVisible(true);
         Color f = panel1.getBackground();
@@ -585,7 +583,7 @@ public class fourth extends javax.swing.JFrame {
 
     private void jButton11ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton11ActionPerformed
 
-        selectgame singleplayer = new selectgame();
+        SinglePlayer singleplayer = new SinglePlayer();
         this.setVisible(false);
         singleplayer.setVisible(true);
         Color f = panel1.getBackground();
@@ -600,7 +598,7 @@ public class fourth extends javax.swing.JFrame {
 
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new fourth().setVisible(true);
+                new Pic_Table_4().setVisible(true);
             }
         });
     }

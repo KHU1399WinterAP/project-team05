@@ -4,9 +4,9 @@ import java.awt.Color;
 import static java.awt.Color.white;
 import javax.swing.JFrame;
 
-public class keyword2 extends javax.swing.JFrame {
+public class Key_Word_2 extends javax.swing.JFrame {
 
-    public keyword2() {
+    public Key_Word_2() {
         initComponents();
         setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         setResizable(false);
@@ -136,7 +136,7 @@ public class keyword2 extends javax.swing.JFrame {
 
     private void aActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_aActionPerformed
 
-        second first1 = new second();
+        Pic_Table_2 first1 = new Pic_Table_2();
         first1.w.setText("b");
         first1.b.setText("a");
         first1.a2.setText("y");
@@ -154,7 +154,7 @@ public class keyword2 extends javax.swing.JFrame {
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
 
-        second first1 = new second();
+        Pic_Table_2 first1 = new Pic_Table_2();
         first1.s.setText("s");
         first1.t.setText("i");
         first1.u.setText("r");
@@ -175,7 +175,7 @@ public class keyword2 extends javax.swing.JFrame {
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
 
-        second first1 = new second();
+        Pic_Table_2 first1 = new Pic_Table_2();
         first1.setVisible(true);
         this.dispose();
         Color f = panel1.getBackground();
@@ -195,7 +195,7 @@ public class keyword2 extends javax.swing.JFrame {
 
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new keyword2().setVisible(true);
+                new Key_Word_2().setVisible(true);
             }
         });
     }

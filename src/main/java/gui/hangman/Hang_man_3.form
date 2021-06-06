@@ -28,7 +28,10 @@
     </DimensionLayout>
     <DimensionLayout dim="1">
       <Group type="103" groupAlignment="0" attributes="0">
-          <Component id="panel1" alignment="0" min="-2" max="-2" attributes="0"/>
+          <Group type="102" alignment="0" attributes="0">
+              <Component id="panel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+          </Group>
       </Group>
     </DimensionLayout>
   </Layout>
@@ -47,17 +50,18 @@
         <DimensionLayout dim="0">
           <Group type="103" groupAlignment="0" attributes="0">
               <Group type="102" alignment="0" attributes="0">
-                  <EmptySpace max="-2" attributes="0"/>
-                  <Component id="jLabel1" min="-2" pref="362" max="-2" attributes="0"/>
-                  <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
-                  <Group type="103" groupAlignment="0" attributes="0">
-                      <Component id="Start1" alignment="0" min="-2" pref="88" max="-2" attributes="0"/>
-                      <Component id="Start2" alignment="0" min="-2" pref="88" max="-2" attributes="0"/>
-                      <Component id="Start3" alignment="0" min="-2" pref="88" max="-2" attributes="0"/>
-                  </Group>
-                  <EmptySpace pref="112" max="32767" attributes="0"/>
+                  <EmptySpace min="-2" pref="14" max="-2" attributes="0"/>
+                  <Component id="jLabel1" min="-2" pref="379" max="-2" attributes="0"/>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                      <Component id="jLabel2" pref="296" max="32767" attributes="0"/>
+                      <Component id="Start1" alignment="0" pref="98" max="32767" attributes="0"/>
+                      <Component id="Start2" alignment="0" max="32767" attributes="0"/>
+                      <Component id="Start3" alignment="0" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace pref="75" max="32767" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="labal2" alignment="0" min="-2" pref="296" max="-2" attributes="0"/>
+                      <Component id="jLabel2" alignment="1" min="-2" pref="296" max="-2" attributes="0"/>
                       <Group type="102" alignment="0" attributes="0">
                           <Component id="text1" min="-2" pref="42" max="-2" attributes="0"/>
                           <EmptySpace max="-2" attributes="0"/>
@@ -71,46 +75,12 @@
                           <EmptySpace max="-2" attributes="0"/>
                           <Component id="text6" min="-2" pref="42" max="-2" attributes="0"/>
                       </Group>
-                      <Group type="102" attributes="0">
-                          <Component id="text7" min="-2" pref="42" max="-2" attributes="0"/>
-                          <EmptySpace max="-2" attributes="0"/>
-                          <Component id="text8" min="-2" pref="42" max="-2" attributes="0"/>
-                      </Group>
-                      <Component id="labal2" max="32767" attributes="0"/>
                   </Group>
                   <EmptySpace max="-2" attributes="0"/>
               </Group>
               <Group type="102" alignment="0" attributes="0">
-                  <EmptySpace min="-2" pref="97" max="-2" attributes="0"/>
-                  <Group type="103" groupAlignment="0" attributes="0">
-                      <Component id="a22" min="-2" pref="50" max="-2" attributes="0"/>
-                      <Component id="a23" min="-2" pref="50" max="-2" attributes="0"/>
-                  </Group>
-                  <EmptySpace max="-2" attributes="0"/>
-                  <Group type="103" groupAlignment="0" attributes="0">
-                      <Group type="102" attributes="0">
-                          <Component id="a10" min="-2" pref="50" max="-2" attributes="0"/>
-                          <EmptySpace max="-2" attributes="0"/>
-                          <Component id="a11" min="-2" pref="50" max="-2" attributes="0"/>
-                          <EmptySpace max="-2" attributes="0"/>
-                          <Component id="a12" min="-2" pref="50" max="-2" attributes="0"/>
-                          <EmptySpace max="-2" attributes="0"/>
-                          <Component id="a13" min="-2" pref="50" max="-2" attributes="0"/>
-                          <EmptySpace max="-2" attributes="0"/>
-                          <Component id="a14" min="-2" pref="50" max="-2" attributes="0"/>
-                          <EmptySpace max="-2" attributes="0"/>
-                          <Component id="a15" min="-2" pref="50" max="-2" attributes="0"/>
-                          <EmptySpace max="-2" attributes="0"/>
-                          <Component id="a16" min="-2" pref="50" max="-2" attributes="0"/>
-                          <EmptySpace max="-2" attributes="0"/>
-                          <Component id="a17" min="-2" pref="50" max="-2" attributes="0"/>
-                          <EmptySpace max="-2" attributes="0"/>
-                          <Component id="a18" min="-2" pref="50" max="-2" attributes="0"/>
-                          <EmptySpace max="-2" attributes="0"/>
-                          <Component id="a19" min="-2" pref="50" max="-2" attributes="0"/>
-                          <EmptySpace max="-2" attributes="0"/>
-                          <Component id="a21" min="-2" pref="50" max="-2" attributes="0"/>
-                      </Group>
+                  <EmptySpace min="-2" pref="188" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="1" attributes="0">
                       <Group type="102" attributes="0">
                           <Component id="a" min="-2" pref="50" max="-2" attributes="0"/>
                           <EmptySpace max="-2" attributes="0"/>
@@ -129,18 +99,38 @@
                           <Component id="a7" min="-2" pref="50" max="-2" attributes="0"/>
                           <EmptySpace max="-2" attributes="0"/>
                           <Component id="a8" min="-2" pref="50" max="-2" attributes="0"/>
-                          <EmptySpace max="-2" attributes="0"/>
-                          <Component id="a9" min="-2" pref="50" max="-2" attributes="0"/>
-                          <EmptySpace max="-2" attributes="0"/>
-                          <Component id="a20" min="-2" pref="50" max="-2" attributes="0"/>
                       </Group>
+                      <Group type="102" attributes="0">
+                          <Component id="a10" min="-2" pref="50" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="a11" min="-2" pref="50" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="a12" min="-2" pref="50" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="a13" min="-2" pref="50" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="a14" min="-2" pref="50" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="a15" min="-2" pref="50" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="a16" min="-2" pref="50" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="a17" min="-2" pref="50" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="a18" min="-2" pref="50" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="a19" min="-2" pref="50" max="-2" attributes="0"/>
+                      <Component id="a9" min="-2" pref="50" max="-2" attributes="0"/>
                   </Group>
                   <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
               </Group>
               <Group type="102" alignment="1" attributes="0">
                   <EmptySpace max="32767" attributes="0"/>
                   <Component id="btnb" min="-2" pref="106" max="-2" attributes="0"/>
-                  <EmptySpace min="-2" pref="209" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="213" max="-2" attributes="0"/>
                   <Component id="btna" min="-2" pref="130" max="-2" attributes="0"/>
                   <EmptySpace min="-2" pref="37" max="-2" attributes="0"/>
               </Group>
@@ -159,13 +149,13 @@
                           <Component id="Start3" min="-2" pref="34" max="-2" attributes="0"/>
                       </Group>
                       <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="0" attributes="0">
-                              <Group type="102" alignment="0" attributes="0">
-                                  <EmptySpace max="-2" attributes="0"/>
+                              <Group type="102" attributes="0">
                                   <Component id="jLabel2" min="-2" pref="29" max="-2" attributes="0"/>
                                   <EmptySpace max="-2" attributes="0"/>
-                                  <Component id="labal2" min="-2" pref="139" max="-2" attributes="0"/>
-                                  <EmptySpace max="32767" attributes="0"/>
+                                  <Component id="labal2" min="-2" pref="151" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
                                   <Group type="103" groupAlignment="3" attributes="0">
                                       <Component id="text1" alignment="3" min="-2" pref="34" max="-2" attributes="0"/>
                                       <Component id="text2" alignment="3" min="-2" pref="34" max="-2" attributes="0"/>
@@ -174,55 +164,49 @@
                                       <Component id="text5" alignment="3" min="-2" pref="34" max="-2" attributes="0"/>
                                       <Component id="text6" alignment="3" min="-2" pref="34" max="-2" attributes="0"/>
                                   </Group>
-                                  <EmptySpace max="-2" attributes="0"/>
-                                  <Group type="103" groupAlignment="3" attributes="0">
-                                      <Component id="text7" alignment="3" min="-2" pref="34" max="-2" attributes="0"/>
-                                      <Component id="text8" alignment="3" min="-2" pref="34" max="-2" attributes="0"/>
-                                  </Group>
-                                  <EmptySpace min="-2" pref="51" max="-2" attributes="0"/>
                               </Group>
-                              <Group type="102" alignment="0" attributes="0">
-                                  <Component id="jLabel1" min="-2" pref="276" max="-2" attributes="0"/>
-                                  <EmptySpace max="-2" attributes="0"/>
-                                  <Group type="103" groupAlignment="3" attributes="0">
-                                      <Component id="a22" alignment="3" min="-2" pref="33" max="-2" attributes="0"/>
-                                      <Component id="a" alignment="3" min="-2" pref="33" max="-2" attributes="0"/>
-                                      <Component id="a1" alignment="3" min="-2" pref="33" max="-2" attributes="0"/>
-                                      <Component id="a2" alignment="3" min="-2" pref="33" max="-2" attributes="0"/>
-                                      <Component id="a3" alignment="3" min="-2" pref="33" max="-2" attributes="0"/>
-                                      <Component id="a4" alignment="3" min="-2" pref="33" max="-2" attributes="0"/>
-                                      <Component id="a5" alignment="3" min="-2" pref="33" max="-2" attributes="0"/>
-                                      <Component id="a6" alignment="3" min="-2" pref="33" max="-2" attributes="0"/>
-                                      <Component id="a7" alignment="3" min="-2" pref="33" max="-2" attributes="0"/>
-                                      <Component id="a8" alignment="3" min="-2" pref="33" max="-2" attributes="0"/>
-                                      <Component id="a9" alignment="3" min="-2" pref="33" max="-2" attributes="0"/>
-                                      <Component id="a20" alignment="3" min="-2" pref="33" max="-2" attributes="0"/>
-                                  </Group>
-                                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
-                              </Group>
+                              <Component id="jLabel1" min="-2" pref="264" max="-2" attributes="0"/>
                           </Group>
+                          <EmptySpace min="-2" pref="65" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="3" attributes="0">
-                              <Component id="a23" alignment="3" min="-2" pref="33" max="-2" attributes="0"/>
-                              <Component id="a10" alignment="3" min="-2" pref="33" max="-2" attributes="0"/>
-                              <Component id="a11" alignment="3" min="-2" pref="33" max="-2" attributes="0"/>
-                              <Component id="a12" alignment="3" min="-2" pref="33" max="-2" attributes="0"/>
-                              <Component id="a13" alignment="3" min="-2" pref="33" max="-2" attributes="0"/>
-                              <Component id="a14" alignment="3" min="-2" pref="33" max="-2" attributes="0"/>
-                              <Component id="a15" alignment="3" min="-2" pref="33" max="-2" attributes="0"/>
-                              <Component id="a16" alignment="3" min="-2" pref="33" max="-2" attributes="0"/>
-                              <Component id="a17" alignment="3" min="-2" pref="33" max="-2" attributes="0"/>
-                              <Component id="a18" alignment="3" min="-2" pref="33" max="-2" attributes="0"/>
+                              <Component id="a" alignment="3" min="-2" pref="33" max="-2" attributes="0"/>
+                              <Component id="a1" alignment="3" min="-2" pref="33" max="-2" attributes="0"/>
+                              <Component id="a2" alignment="3" min="-2" pref="33" max="-2" attributes="0"/>
+                              <Component id="a3" alignment="3" min="-2" pref="33" max="-2" attributes="0"/>
+                              <Component id="a4" alignment="3" min="-2" pref="33" max="-2" attributes="0"/>
+                              <Component id="a5" alignment="3" min="-2" pref="33" max="-2" attributes="0"/>
+                              <Component id="a6" alignment="3" min="-2" pref="33" max="-2" attributes="0"/>
+                              <Component id="a7" alignment="3" min="-2" pref="33" max="-2" attributes="0"/>
+                              <Component id="a8" alignment="3" min="-2" pref="33" max="-2" attributes="0"/>
+                              <Component id="a9" alignment="3" min="-2" pref="33" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
                               <Component id="a19" alignment="3" min="-2" pref="33" max="-2" attributes="0"/>
-                              <Component id="a21" alignment="3" min="-2" pref="33" max="-2" attributes="0"/>
+                              <Component id="a18" alignment="3" min="-2" pref="33" max="-2" attributes="0"/>
+                              <Component id="a17" alignment="3" min="-2" pref="33" max="-2" attributes="0"/>
+                              <Component id="a16" alignment="3" min="-2" pref="33" max="-2" attributes="0"/>
+                              <Component id="a15" alignment="3" min="-2" pref="33" max="-2" attributes="0"/>
+                              <Component id="a14" alignment="3" min="-2" pref="33" max="-2" attributes="0"/>
+                              <Component id="a13" alignment="3" min="-2" pref="33" max="-2" attributes="0"/>
+                              <Component id="a12" alignment="3" min="-2" pref="33" max="-2" attributes="0"/>
+                              <Component id="a11" alignment="3" min="-2" pref="33" max="-2" attributes="0"/>
+                              <Component id="a10" alignment="3" min="-2" pref="33" max="-2" attributes="0"/>
                           </Group>
                       </Group>
                   </Group>
-                  <EmptySpace type="separate" max="-2" attributes="0"/>
-                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                      <Component id="btnb" alignment="0" max="32767" attributes="0"/>
-                      <Component id="btna" alignment="0" max="32767" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace min="-2" pref="33" max="-2" attributes="0"/>
+                          <Component id="btna" min="-2" pref="37" max="-2" attributes="0"/>
+                          <EmptySpace pref="46" max="32767" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="1" attributes="0">
+                          <EmptySpace max="32767" attributes="0"/>
+                          <Component id="btnb" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="37" max="-2" attributes="0"/>
+                      </Group>
                   </Group>
-                  <EmptySpace min="0" pref="30" max="32767" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
@@ -240,7 +224,7 @@
               <Color blue="0" green="ff" red="33" type="rgb"/>
             </Property>
             <Property name="horizontalAlignment" type="int" value="0"/>
-            <Property name="text" type="java.lang.String" value="4"/>
+            <Property name="text" type="java.lang.String" value="3"/>
           </Properties>
         </Component>
         <Component class="javax.swing.JTextField" name="text1">
@@ -353,7 +337,7 @@
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Trebuchet MS" size="18" style="3"/>
             </Property>
-            <Property name="text" type="java.lang.String" value="a"/>
+            <Property name="text" type="java.lang.String" value="o"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="aActionPerformed"/>
@@ -437,7 +421,7 @@
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Trebuchet MS" size="18" style="3"/>
             </Property>
-            <Property name="text" type="java.lang.String" value="t"/>
+            <Property name="text" type="java.lang.String" value="w"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="a6ActionPerformed"/>
@@ -507,7 +491,7 @@
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Trebuchet MS" size="18" style="3"/>
             </Property>
-            <Property name="text" type="java.lang.String" value="n"/>
+            <Property name="text" type="java.lang.String" value="o"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="a11ActionPerformed"/>
@@ -671,85 +655,9 @@
           <Properties>
             <Property name="horizontalAlignment" type="int" value="0"/>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\myPC\Downloads\shikposh.jpg"/>
+              <Image iconType="2" name="D:\project\project asli\project-team05\aftabe\src\main\java\resources\icons\otobos.jpg"/>
             </Property>
           </Properties>
-        </Component>
-        <Component class="javax.swing.JTextField" name="text7">
-          <Properties>
-            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="ff" green="ff" red="0" type="rgb"/>
-            </Property>
-            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-              <Font name="Trebuchet MS" size="24" style="3"/>
-            </Property>
-          </Properties>
-        </Component>
-        <Component class="javax.swing.JTextField" name="text8">
-          <Properties>
-            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="ff" green="ff" red="0" type="rgb"/>
-            </Property>
-            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-              <Font name="Trebuchet MS" size="24" style="3"/>
-            </Property>
-          </Properties>
-        </Component>
-        <Component class="javax.swing.JButton" name="a20">
-          <Properties>
-            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="ff" green="ff" red="0" type="rgb"/>
-            </Property>
-            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-              <Font name="Trebuchet MS" size="18" style="3"/>
-            </Property>
-            <Property name="text" type="java.lang.String" value="p"/>
-          </Properties>
-          <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="a20ActionPerformed"/>
-          </Events>
-        </Component>
-        <Component class="javax.swing.JButton" name="a21">
-          <Properties>
-            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="ff" green="ff" red="0" type="rgb"/>
-            </Property>
-            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-              <Font name="Trebuchet MS" size="18" style="3"/>
-            </Property>
-            <Property name="text" type="java.lang.String" value="k"/>
-          </Properties>
-          <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="a21ActionPerformed"/>
-          </Events>
-        </Component>
-        <Component class="javax.swing.JButton" name="a22">
-          <Properties>
-            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="ff" green="ff" red="0" type="rgb"/>
-            </Property>
-            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-              <Font name="Trebuchet MS" size="18" style="3"/>
-            </Property>
-            <Property name="text" type="java.lang.String" value="i"/>
-          </Properties>
-          <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="a22ActionPerformed"/>
-          </Events>
-        </Component>
-        <Component class="javax.swing.JButton" name="a23">
-          <Properties>
-            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="ff" green="ff" red="0" type="rgb"/>
-            </Property>
-            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-              <Font name="Trebuchet MS" size="18" style="3"/>
-            </Property>
-            <Property name="text" type="java.lang.String" value="s"/>
-          </Properties>
-          <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="a23ActionPerformed"/>
-          </Events>
         </Component>
       </SubComponents>
     </Container>

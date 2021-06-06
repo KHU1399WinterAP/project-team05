@@ -1,14 +1,14 @@
 package gui.dashboard;
 
-import gui.dashboard.selectgame;
+import gui.dashboard.SinglePlayer;
 import java.awt.Color;
 import static java.awt.Color.orange;
 import static java.awt.Color.white;
 import javax.swing.JFrame;
 
-public class win extends javax.swing.JFrame {
+public class Win extends javax.swing.JFrame {
 
-    public win() {
+    public Win() {
         initComponents();
         setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         setResizable(false);
@@ -110,7 +110,7 @@ public class win extends javax.swing.JFrame {
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
 
-        selectgame singleplayer = new selectgame();
+        SinglePlayer singleplayer = new SinglePlayer();
         this.dispose();
         singleplayer.setVisible(true);
         Color f = panel1.getBackground();
@@ -125,7 +125,7 @@ public class win extends javax.swing.JFrame {
 
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new win().setVisible(true);
+                new Win().setVisible(true);
             }
         });
     }

@@ -2,7 +2,7 @@ package gui.mainmenu;
 
 import database.Database;
 import javax.swing.JFrame;
-import models.user;
+import models.User;
 
 public class Registermenu extends javax.swing.JFrame {
 
@@ -174,7 +174,7 @@ public class Registermenu extends javax.swing.JFrame {
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
 
-        user user = new user(jTextField1.getText(), jPasswordField1.getPassword());
+        User user = new User(jTextField1.getText(), jPasswordField1.getPassword());
         System.out.println(user);
         Database.insertIntoUser(user);
         this.dispose();

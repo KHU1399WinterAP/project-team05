@@ -1,13 +1,13 @@
 package gui.dashboard;
 
-import gui.dashboard.selectgame;
+import gui.dashboard.SinglePlayer;
 import java.awt.Color;
 import static java.awt.Color.white;
 import javax.swing.JFrame;
 
-public class lose extends javax.swing.JFrame {
+public class Lose extends javax.swing.JFrame {
 
-    public lose() {
+    public Lose() {
         initComponents();
         setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         setResizable(false);
@@ -75,7 +75,7 @@ public class lose extends javax.swing.JFrame {
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
 
-        selectgame singleplayer = new selectgame();
+        SinglePlayer singleplayer = new SinglePlayer();
         this.dispose();
         singleplayer.setVisible(true);
         Color f = panel1.getBackground();
@@ -90,7 +90,7 @@ public class lose extends javax.swing.JFrame {
 
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new lose().setVisible(true);
+                new Lose().setVisible(true);
             }
         });
     }

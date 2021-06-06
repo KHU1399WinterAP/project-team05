@@ -1,14 +1,14 @@
 package gui.pictable;
 
-import gui.pictable.first1;
+import gui.pictable.Pic_Table_1;
 import java.awt.Color;
 import static java.awt.Color.orange;
 import static java.awt.Color.white;
 import javax.swing.JFrame;
 
-public class keyword extends javax.swing.JFrame {
+public class Key_Word_1 extends javax.swing.JFrame {
 
-    public keyword() {
+    public Key_Word_1() {
         initComponents();
         setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         setResizable(false);
@@ -140,7 +140,7 @@ public class keyword extends javax.swing.JFrame {
 
     private void aActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_aActionPerformed
 
-        first1 first1 = new first1();
+        Pic_Table_1 first1 = new Pic_Table_1();
         first1.btnhelp.setVisible(false);
         first1.a.setText("s");
         first1.e.setText("r");
@@ -162,7 +162,7 @@ public class keyword extends javax.swing.JFrame {
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
 
-        first1 first1 = new first1();
+        Pic_Table_1 first1 = new Pic_Table_1();
         first1.setVisible(true);
         Color f = panel1.getBackground();
         if (f.equals(white)) {
@@ -175,7 +175,7 @@ public class keyword extends javax.swing.JFrame {
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
 
-        first1 first1 = new first1();
+        Pic_Table_1 first1 = new Pic_Table_1();
         first1.p.setText("n");
         first1.q.setText("e");
         first1.r.setText("y");
@@ -198,7 +198,7 @@ public class keyword extends javax.swing.JFrame {
 
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new keyword().setVisible(true);
+                new Key_Word_1().setVisible(true);
             }
         });
     }

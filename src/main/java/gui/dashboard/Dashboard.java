@@ -234,7 +234,7 @@ public class Dashboard extends javax.swing.JFrame {
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
 
-        selectgame singleplayer = new selectgame();
+        SinglePlayer singleplayer = new SinglePlayer();
         this.setVisible(false);
         singleplayer.setVisible(true);
         Color f = panel3.getBackground();
@@ -250,7 +250,7 @@ public class Dashboard extends javax.swing.JFrame {
 
     private void jButton6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton6ActionPerformed
 
-        help help = new help();
+        Help help = new Help();
         this.setVisible(false);
         help.setVisible(true);
         Color f = panel3.getBackground();

@@ -1,15 +1,15 @@
 package gui.pictable;
 
-import gui.dashboard.selectgame;
+import gui.dashboard.SinglePlayer;
 import java.awt.Color;
 import static java.awt.Color.orange;
 import static java.awt.Color.white;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 
-public class first1 extends javax.swing.JFrame {
+public class Pic_Table_1 extends javax.swing.JFrame {
 
-    public first1() {
+    public Pic_Table_1() {
         initComponents();
         setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         setResizable(false);
@@ -70,7 +70,7 @@ public class first1 extends javax.swing.JFrame {
 
         picture.setBackground(new java.awt.Color(0, 0, 0));
         picture.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        picture.setIcon(new javax.swing.ImageIcon("C:\\Users\\myPC\\Desktop\\Hang_Man\\src\\img1.png")); // NOI18N
+        picture.setIcon(new javax.swing.ImageIcon("D:\\project\\project asli\\project-team05\\aftabe\\src\\main\\java\\resources\\icons\\img1.png")); // NOI18N
 
         panel2.setBackground(new java.awt.Color(0, 0, 0));
 
@@ -303,19 +303,19 @@ public class first1 extends javax.swing.JFrame {
         jButton2.setFont(new java.awt.Font("Urdu Typesetting", 3, 18)); // NOI18N
         jButton2.setText("1");
 
-        jLabel1.setIcon(new javax.swing.ImageIcon("C:\\Users\\myPC\\Desktop\\Hang_Man\\src\\img2.png")); // NOI18N
+        jLabel1.setIcon(new javax.swing.ImageIcon("D:\\project\\project asli\\project-team05\\aftabe\\src\\main\\java\\resources\\icons\\img2.png")); // NOI18N
 
         jButton3.setBackground(new java.awt.Color(255, 255, 255));
         jButton3.setFont(new java.awt.Font("Urdu Typesetting", 3, 18)); // NOI18N
         jButton3.setText("2");
 
-        jLabel2.setIcon(new javax.swing.ImageIcon("C:\\Users\\myPC\\Desktop\\Hang_Man\\src\\img3.png")); // NOI18N
+        jLabel2.setIcon(new javax.swing.ImageIcon("D:\\project\\project asli\\project-team05\\aftabe\\src\\main\\java\\resources\\icons\\img3.png")); // NOI18N
 
         jButton4.setBackground(new java.awt.Color(255, 255, 255));
         jButton4.setFont(new java.awt.Font("Urdu Typesetting", 3, 18)); // NOI18N
         jButton4.setText("3");
 
-        jLabel3.setIcon(new javax.swing.ImageIcon("C:\\Users\\myPC\\Desktop\\Hang_Man\\src\\img4.png")); // NOI18N
+        jLabel3.setIcon(new javax.swing.ImageIcon("D:\\project\\project asli\\project-team05\\aftabe\\src\\main\\java\\resources\\icons\\img4.png")); // NOI18N
 
         jButton5.setBackground(new java.awt.Color(255, 255, 255));
         jButton5.setFont(new java.awt.Font("Urdu Typesetting", 3, 18)); // NOI18N
@@ -460,7 +460,7 @@ public class first1 extends javax.swing.JFrame {
             t.setBackground(Color.green);
             n.setBackground(Color.green);
             u.setBackground(Color.green);
-            second second = new second();
+            Pic_Table_2 second = new Pic_Table_2();
             second.setVisible(true);
             this.dispose();
             Color f = panel2.getBackground();
@@ -493,7 +493,6 @@ public class first1 extends javax.swing.JFrame {
                 f.setBackground(Color.red);
                 g.setBackground(Color.red);
                 h.setBackground(Color.red);
-                d.setBackground(Color.red);
                 i.setBackground(Color.red);
             }
             if (user10.equals("d") && user11.equals("o") && user12.equals("m") && user13.equals("i") && user14.equals("n")
@@ -522,7 +521,6 @@ public class first1 extends javax.swing.JFrame {
                 n.setBackground(Color.green);
                 u.setBackground(Color.green);
             } else {
-                n.setBackground(Color.red);
                 p.setBackground(Color.red);
                 q.setBackground(Color.red);
                 r.setBackground(Color.red);
@@ -536,7 +534,7 @@ public class first1 extends javax.swing.JFrame {
 
     private void jButton10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton10ActionPerformed
 
-        first1 first1 = new first1();
+        Pic_Table_1 first1 = new Pic_Table_1();
         this.setVisible(false);
         first1.setVisible(true);
         Color f = panel1.getBackground();
@@ -550,7 +548,7 @@ public class first1 extends javax.swing.JFrame {
 
     private void jButton11ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton11ActionPerformed
 
-        selectgame singleplayer = new selectgame();
+        SinglePlayer singleplayer = new SinglePlayer();
         this.setVisible(false);
         singleplayer.setVisible(true);
         Color f = panel1.getBackground();
@@ -563,7 +561,7 @@ public class first1 extends javax.swing.JFrame {
 
     private void btnhelpActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnhelpActionPerformed
 
-        keyword keyword = new keyword();
+        Key_Word_1 keyword = new Key_Word_1();
         keyword.setVisible(true);
         this.dispose();
         btnhelp.setVisible(false);
@@ -579,7 +577,7 @@ public class first1 extends javax.swing.JFrame {
 
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new first1().setVisible(true);
+                new Pic_Table_1().setVisible(true);
             }
         });
     }

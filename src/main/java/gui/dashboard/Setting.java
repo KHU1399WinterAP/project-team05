@@ -2,7 +2,7 @@ package gui.dashboard;
 
 import gui.setting.Theme;
 import gui.dashboard.Dashboard;
-import gui.setting.newpass;
+import gui.setting.NewPassword;
 import java.awt.Color;
 import static java.awt.Color.white;
 import javax.swing.JFrame;
@@ -151,7 +151,7 @@ public class Setting extends javax.swing.JFrame {
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
 
-        newpass newpass = new newpass();
+        NewPassword newpass = new NewPassword();
         this.setVisible(false);
         newpass.setVisible(true);
         Color f = panel1.getBackground();

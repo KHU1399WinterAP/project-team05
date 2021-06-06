@@ -1,14 +1,15 @@
 package gui.hangman;
 
-import gui.dashboard.selectgame;
-import gui.dashboard.lose;
+import gui.dashboard.SinglePlayer;
+import gui.dashboard.Lose;
+import gui.dashboard.Win;
 import java.awt.Color;
 import static java.awt.Color.white;
 import javax.swing.JFrame;
 
-public class hangman2 extends javax.swing.JFrame {
+public class Hang_man_3 extends javax.swing.JFrame {
 
-    public hangman2() {
+    public Hang_man_3() {
         initComponents();
         btna.setVisible(false);
         setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
@@ -55,12 +56,6 @@ public class hangman2 extends javax.swing.JFrame {
         jLabel2 = new javax.swing.JLabel();
         btna = new javax.swing.JButton();
         jLabel1 = new javax.swing.JLabel();
-        text7 = new javax.swing.JTextField();
-        text8 = new javax.swing.JTextField();
-        a20 = new javax.swing.JButton();
-        a21 = new javax.swing.JButton();
-        a22 = new javax.swing.JButton();
-        a23 = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -70,7 +65,7 @@ public class hangman2 extends javax.swing.JFrame {
         labal2.setFont(new java.awt.Font("Tahoma", 3, 72)); // NOI18N
         labal2.setForeground(new java.awt.Color(51, 255, 0));
         labal2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        labal2.setText("4");
+        labal2.setText("3");
 
         text1.setBackground(new java.awt.Color(0, 255, 255));
         text1.setFont(new java.awt.Font("Trebuchet MS", 3, 24)); // NOI18N
@@ -119,7 +114,7 @@ public class hangman2 extends javax.swing.JFrame {
 
         a.setBackground(new java.awt.Color(0, 255, 255));
         a.setFont(new java.awt.Font("Trebuchet MS", 3, 18)); // NOI18N
-        a.setText("a");
+        a.setText("o");
         a.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 aActionPerformed(evt);
@@ -173,7 +168,7 @@ public class hangman2 extends javax.swing.JFrame {
 
         a6.setBackground(new java.awt.Color(0, 255, 255));
         a6.setFont(new java.awt.Font("Trebuchet MS", 3, 18)); // NOI18N
-        a6.setText("t");
+        a6.setText("w");
         a6.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 a6ActionPerformed(evt);
@@ -218,7 +213,7 @@ public class hangman2 extends javax.swing.JFrame {
 
         a11.setBackground(new java.awt.Color(0, 255, 255));
         a11.setFont(new java.awt.Font("Trebuchet MS", 3, 18)); // NOI18N
-        a11.setText("n");
+        a11.setText("o");
         a11.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 a11ActionPerformed(evt);
@@ -321,65 +316,24 @@ public class hangman2 extends javax.swing.JFrame {
         });
 
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel1.setIcon(new javax.swing.ImageIcon("C:\\Users\\myPC\\Downloads\\shikposh.jpg")); // NOI18N
-
-        text7.setBackground(new java.awt.Color(0, 255, 255));
-        text7.setFont(new java.awt.Font("Trebuchet MS", 3, 24)); // NOI18N
-
-        text8.setBackground(new java.awt.Color(0, 255, 255));
-        text8.setFont(new java.awt.Font("Trebuchet MS", 3, 24)); // NOI18N
-
-        a20.setBackground(new java.awt.Color(0, 255, 255));
-        a20.setFont(new java.awt.Font("Trebuchet MS", 3, 18)); // NOI18N
-        a20.setText("p");
-        a20.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                a20ActionPerformed(evt);
-            }
-        });
-
-        a21.setBackground(new java.awt.Color(0, 255, 255));
-        a21.setFont(new java.awt.Font("Trebuchet MS", 3, 18)); // NOI18N
-        a21.setText("k");
-        a21.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                a21ActionPerformed(evt);
-            }
-        });
-
-        a22.setBackground(new java.awt.Color(0, 255, 255));
-        a22.setFont(new java.awt.Font("Trebuchet MS", 3, 18)); // NOI18N
-        a22.setText("i");
-        a22.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                a22ActionPerformed(evt);
-            }
-        });
-
-        a23.setBackground(new java.awt.Color(0, 255, 255));
-        a23.setFont(new java.awt.Font("Trebuchet MS", 3, 18)); // NOI18N
-        a23.setText("s");
-        a23.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                a23ActionPerformed(evt);
-            }
-        });
+        jLabel1.setIcon(new javax.swing.ImageIcon("D:\\project\\project asli\\project-team05\\aftabe\\src\\main\\java\\resources\\icons\\otobos.jpg")); // NOI18N
 
         javax.swing.GroupLayout panel1Layout = new javax.swing.GroupLayout(panel1);
         panel1.setLayout(panel1Layout);
         panel1Layout.setHorizontalGroup(
             panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(panel1Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 362, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(31, 31, 31)
-                .addGroup(panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(Start1, javax.swing.GroupLayout.PREFERRED_SIZE, 88, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(Start2, javax.swing.GroupLayout.PREFERRED_SIZE, 88, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(Start3, javax.swing.GroupLayout.PREFERRED_SIZE, 88, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 112, Short.MAX_VALUE)
+                .addGap(14, 14, 14)
+                .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 379, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addComponent(jLabel2, javax.swing.GroupLayout.DEFAULT_SIZE, 296, Short.MAX_VALUE)
+                    .addComponent(Start1, javax.swing.GroupLayout.DEFAULT_SIZE, 98, Short.MAX_VALUE)
+                    .addComponent(Start2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(Start3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 75, Short.MAX_VALUE)
+                .addGroup(panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(labal2, javax.swing.GroupLayout.PREFERRED_SIZE, 296, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel2, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 296, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addGroup(panel1Layout.createSequentialGroup()
                         .addComponent(text1, javax.swing.GroupLayout.PREFERRED_SIZE, 42, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
@@ -391,42 +345,11 @@ public class hangman2 extends javax.swing.JFrame {
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(text5, javax.swing.GroupLayout.PREFERRED_SIZE, 42, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(text6, javax.swing.GroupLayout.PREFERRED_SIZE, 42, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(panel1Layout.createSequentialGroup()
-                        .addComponent(text7, javax.swing.GroupLayout.PREFERRED_SIZE, 42, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(text8, javax.swing.GroupLayout.PREFERRED_SIZE, 42, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addComponent(labal2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                        .addComponent(text6, javax.swing.GroupLayout.PREFERRED_SIZE, 42, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addContainerGap())
             .addGroup(panel1Layout.createSequentialGroup()
-                .addGap(97, 97, 97)
-                .addGroup(panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(a22, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(a23, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(panel1Layout.createSequentialGroup()
-                        .addComponent(a10, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(a11, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(a12, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(a13, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(a14, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(a15, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(a16, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(a17, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(a18, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(a19, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(a21, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(188, 188, 188)
+                .addGroup(panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                     .addGroup(panel1Layout.createSequentialGroup()
                         .addComponent(a, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
@@ -444,16 +367,34 @@ public class hangman2 extends javax.swing.JFrame {
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(a7, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(a8, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(a8, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(panel1Layout.createSequentialGroup()
+                        .addComponent(a10, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(a9, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(a11, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(a20, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addComponent(a12, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(a13, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(a14, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(a15, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(a16, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(a17, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(a18, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(a19, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(a9, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(0, 0, Short.MAX_VALUE))
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, panel1Layout.createSequentialGroup()
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(btnb, javax.swing.GroupLayout.PREFERRED_SIZE, 106, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(209, 209, 209)
+                .addGap(213, 213, 213)
                 .addComponent(btna, javax.swing.GroupLayout.PREFERRED_SIZE, 130, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(37, 37, 37))
         );
@@ -469,60 +410,54 @@ public class hangman2 extends javax.swing.JFrame {
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                         .addComponent(Start3, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(panel1Layout.createSequentialGroup()
+                        .addContainerGap()
                         .addGroup(panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(panel1Layout.createSequentialGroup()
-                                .addContainerGap()
                                 .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 29, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(labal2, javax.swing.GroupLayout.PREFERRED_SIZE, 139, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addComponent(labal2, javax.swing.GroupLayout.PREFERRED_SIZE, 151, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                 .addGroup(panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                                     .addComponent(text1, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
                                     .addComponent(text2, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
                                     .addComponent(text3, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
                                     .addComponent(text4, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
                                     .addComponent(text5, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(text6, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addGroup(panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                                    .addComponent(text7, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(text8, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                .addGap(51, 51, 51))
-                            .addGroup(panel1Layout.createSequentialGroup()
-                                .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 276, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addGroup(panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                                    .addComponent(a22, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(a, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(a1, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(a2, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(a3, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(a4, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(a5, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(a6, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(a7, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(a8, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(a9, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(a20, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                .addGap(0, 0, Short.MAX_VALUE)))
+                                    .addComponent(text6, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                            .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 264, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGap(65, 65, 65)
                         .addGroup(panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(a23, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(a10, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(a11, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(a12, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(a13, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(a14, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(a15, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(a16, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(a17, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(a18, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(a, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(a1, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(a2, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(a3, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(a4, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(a5, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(a6, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(a7, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(a8, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(a9, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                             .addComponent(a19, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(a21, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE))))
-                .addGap(18, 18, 18)
-                .addGroup(panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addComponent(btnb, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(btna, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                .addGap(0, 30, Short.MAX_VALUE))
+                            .addComponent(a18, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(a17, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(a16, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(a15, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(a14, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(a13, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(a12, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(a11, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(a10, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                .addGroup(panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(panel1Layout.createSequentialGroup()
+                        .addGap(33, 33, 33)
+                        .addComponent(btna, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addContainerGap(46, Short.MAX_VALUE))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, panel1Layout.createSequentialGroup()
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(btnb)
+                        .addGap(37, 37, 37))))
         );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
@@ -533,7 +468,9 @@ public class hangman2 extends javax.swing.JFrame {
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(panel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+            .addGroup(layout.createSequentialGroup()
+                .addComponent(panel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, Short.MAX_VALUE))
         );
 
         pack();
@@ -541,13 +478,14 @@ public class hangman2 extends javax.swing.JFrame {
 
     private void Start1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Start1ActionPerformed
 
-        hangman2 hangman = new hangman2();
+        Hang_man_3 hangman = new Hang_man_3();
         this.dispose();
         hangman.setVisible(true);
         Color f = panel1.getBackground();
         if (f.equals(white)) {
             hangman.panel1.setBackground(Color.white);
         }
+
     }//GEN-LAST:event_Start1ActionPerformed
 
     private void Start2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Start2ActionPerformed
@@ -562,16 +500,16 @@ public class hangman2 extends javax.swing.JFrame {
             labal2.setText("2");
             a19.setVisible(false);
             a1.setVisible(false);
-            a15.setVisible(false);
-            a13.setVisible(false);
+            a10.setVisible(false);
+            a12.setVisible(false);
         } else if (f.equals("3")) {
             labal2.setText("1");
             a19.setVisible(false);
             a1.setVisible(false);
-            a15.setVisible(false);
+            a10.setVisible(false);
             a13.setVisible(false);
         } else {
-            lose lose = new lose();
+            Lose lose = new Lose();
             this.dispose();
             lose.setVisible(true);
             Color h = panel1.getBackground();
@@ -579,13 +517,12 @@ public class hangman2 extends javax.swing.JFrame {
                 lose.panel1.setBackground(Color.white);
 
             }
-
         }
     }//GEN-LAST:event_Start2ActionPerformed
 
     private void Start3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Start3ActionPerformed
 
-        selectgame selectgame = new selectgame();
+        SinglePlayer selectgame = new SinglePlayer();
         this.dispose();
         selectgame.setVisible(true);
         Color f = panel1.getBackground();
@@ -598,35 +535,8 @@ public class hangman2 extends javax.swing.JFrame {
 
     private void aActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_aActionPerformed
 
-        String f = labal2.getText();
-        if (f.equals("5")) {
-            labal2.setText("4");
-            a.setVisible(false);
-        } else if (f.equals("4")) {
-            labal2.setText("3");
-            labal2.setForeground(Color.orange);
-            a.setVisible(false);
-        } else if (f.equals("3")) {
-            labal2.setText("2");
-            labal2.setForeground(Color.orange);
-            a.setVisible(false);
-        } else if (f.equals("2")) {
-            labal2.setText("1");
-            labal2.setForeground(Color.red);
-            a.setVisible(false);
-        } else if (f.equals("1")) {
-            labal2.setText("0");
-            lose lose = new lose();
-            lose.setVisible(true);
-            this.dispose();
-            a.setVisible(false);
-            Color h = panel1.getBackground();
-            if (h.equals(white)) {
-                lose.panel1.setBackground(Color.white);
-
-            }
-        }
-
+        text1.setText("o");
+        a.setVisible(false);
     }//GEN-LAST:event_aActionPerformed
 
     private void a1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_a1ActionPerformed
@@ -649,7 +559,7 @@ public class hangman2 extends javax.swing.JFrame {
             a1.setVisible(false);
         } else if (f.equals("1")) {
             labal2.setText("0");
-            lose lose = new lose();
+            Lose lose = new Lose();
             lose.setVisible(true);
             this.dispose();
             a1.setVisible(false);
@@ -664,8 +574,34 @@ public class hangman2 extends javax.swing.JFrame {
 
     private void a2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_a2ActionPerformed
 
-        text2.setText("h");
-        a2.setVisible(false);
+        String f = labal2.getText();
+        if (f.equals("5")) {
+            labal2.setText("4");
+            a2.setVisible(false);
+        } else if (f.equals("4")) {
+            labal2.setText("3");
+            labal2.setForeground(Color.orange);
+            a2.setVisible(false);
+        } else if (f.equals("3")) {
+            labal2.setText("2");
+            labal2.setForeground(Color.orange);
+            a2.setVisible(false);
+        } else if (f.equals("2")) {
+            labal2.setText("1");
+            labal2.setForeground(Color.red);
+            a2.setVisible(false);
+        } else if (f.equals("1")) {
+            labal2.setText("0");
+            Lose lose = new Lose();
+            lose.setVisible(true);
+            this.dispose();
+            a2.setVisible(false);
+            Color h = panel1.getBackground();
+            if (h.equals(white)) {
+                lose.panel1.setBackground(Color.white);
+
+            }
+        }
     }//GEN-LAST:event_a2ActionPerformed
 
     private void a3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_a3ActionPerformed
@@ -688,7 +624,7 @@ public class hangman2 extends javax.swing.JFrame {
             a3.setVisible(false);
         } else if (f.equals("1")) {
             labal2.setText("0");
-            lose lose = new lose();
+            Lose lose = new Lose();
             lose.setVisible(true);
             this.dispose();
             a3.setVisible(false);
@@ -698,7 +634,6 @@ public class hangman2 extends javax.swing.JFrame {
 
             }
         }
-
     }//GEN-LAST:event_a3ActionPerformed
 
     private void a4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_a4ActionPerformed
@@ -721,7 +656,7 @@ public class hangman2 extends javax.swing.JFrame {
             a4.setVisible(false);
         } else if (f.equals("1")) {
             labal2.setText("0");
-            lose lose = new lose();
+            Lose lose = new Lose();
             lose.setVisible(true);
             this.dispose();
             a4.setVisible(false);
@@ -735,34 +670,8 @@ public class hangman2 extends javax.swing.JFrame {
 
     private void a5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_a5ActionPerformed
 
-        String f = labal2.getText();
-        if (f.equals("5")) {
-            labal2.setText("4");
-            a5.setVisible(false);
-        } else if (f.equals("4")) {
-            labal2.setText("3");
-            labal2.setForeground(Color.orange);
-            a5.setVisible(false);
-        } else if (f.equals("3")) {
-            labal2.setText("2");
-            labal2.setForeground(Color.orange);
-            a5.setVisible(false);
-        } else if (f.equals("2")) {
-            labal2.setText("1");
-            labal2.setForeground(Color.red);
-            a5.setVisible(false);
-        } else if (f.equals("1")) {
-            labal2.setText("0");
-            lose lose = new lose();
-            lose.setVisible(true);
-            this.dispose();
-            a5.setVisible(false);
-            Color h = panel1.getBackground();
-            if (h.equals(white)) {
-                lose.panel1.setBackground(Color.white);
-
-            }
-        }
+        text2.setText("t");
+        a5.setVisible(false);
     }//GEN-LAST:event_a5ActionPerformed
 
     private void a6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_a6ActionPerformed
@@ -785,7 +694,7 @@ public class hangman2 extends javax.swing.JFrame {
             a6.setVisible(false);
         } else if (f.equals("1")) {
             labal2.setText("0");
-            lose lose = new lose();
+            Lose lose = new Lose();
             lose.setVisible(true);
             this.dispose();
             a6.setVisible(false);
@@ -799,39 +708,13 @@ public class hangman2 extends javax.swing.JFrame {
 
     private void a7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_a7ActionPerformed
 
-        String f = labal2.getText();
-        if (f.equals("5")) {
-            labal2.setText("4");
-            a7.setVisible(false);
-        } else if (f.equals("4")) {
-            labal2.setText("3");
-            labal2.setForeground(Color.orange);
-            a7.setVisible(false);
-        } else if (f.equals("3")) {
-            labal2.setText("2");
-            labal2.setForeground(Color.orange);
-            a7.setVisible(false);
-        } else if (f.equals("2")) {
-            labal2.setText("1");
-            labal2.setForeground(Color.red);
-            a7.setVisible(false);
-        } else if (f.equals("1")) {
-            labal2.setText("0");
-            lose lose = new lose();
-            lose.setVisible(true);
-            this.dispose();
-            a7.setVisible(false);
-            Color h = panel1.getBackground();
-            if (h.equals(white)) {
-                lose.panel1.setBackground(Color.white);
-
-            }
-        }
+        text4.setText("b");
+        a7.setVisible(false);
     }//GEN-LAST:event_a7ActionPerformed
 
     private void a8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_a8ActionPerformed
 
-        text6.setText("o");
+        text3.setText("o");
         a8.setVisible(false);
     }//GEN-LAST:event_a8ActionPerformed
 
@@ -855,7 +738,7 @@ public class hangman2 extends javax.swing.JFrame {
             a9.setVisible(false);
         } else if (f.equals("1")) {
             labal2.setText("0");
-            lose lose = new lose();
+            Lose lose = new Lose();
             lose.setVisible(true);
             this.dispose();
             a9.setVisible(false);
@@ -887,7 +770,7 @@ public class hangman2 extends javax.swing.JFrame {
             a10.setVisible(false);
         } else if (f.equals("1")) {
             labal2.setText("0");
-            lose lose = new lose();
+            Lose lose = new Lose();
             lose.setVisible(true);
             this.dispose();
             a10.setVisible(false);
@@ -901,41 +784,40 @@ public class hangman2 extends javax.swing.JFrame {
 
     private void a11ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_a11ActionPerformed
 
+        text5.setText("o");
+        a11.setVisible(false);
+    }//GEN-LAST:event_a11ActionPerformed
+
+    private void a12ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_a12ActionPerformed
+
         String f = labal2.getText();
         if (f.equals("5")) {
             labal2.setText("4");
-            a11.setVisible(false);
+            a12.setVisible(false);
         } else if (f.equals("4")) {
             labal2.setText("3");
             labal2.setForeground(Color.orange);
-            a11.setVisible(false);
+            a12.setVisible(false);
         } else if (f.equals("3")) {
             labal2.setText("2");
             labal2.setForeground(Color.orange);
-            a11.setVisible(false);
+            a12.setVisible(false);
         } else if (f.equals("2")) {
             labal2.setText("1");
             labal2.setForeground(Color.red);
-            a11.setVisible(false);
+            a12.setVisible(false);
         } else if (f.equals("1")) {
             labal2.setText("0");
-            lose lose = new lose();
+            Lose lose = new Lose();
             lose.setVisible(true);
             this.dispose();
-            a11.setVisible(false);
+            a12.setVisible(false);
             Color h = panel1.getBackground();
             if (h.equals(white)) {
                 lose.panel1.setBackground(Color.white);
 
             }
         }
-
-    }//GEN-LAST:event_a11ActionPerformed
-
-    private void a12ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_a12ActionPerformed
-
-        text8.setText("h");
-        a12.setVisible(false);
     }//GEN-LAST:event_a12ActionPerformed
 
     private void a13ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_a13ActionPerformed
@@ -958,7 +840,7 @@ public class hangman2 extends javax.swing.JFrame {
             a13.setVisible(false);
         } else if (f.equals("1")) {
             labal2.setText("0");
-            lose lose = new lose();
+            Lose lose = new Lose();
             lose.setVisible(true);
             this.dispose();
             a13.setVisible(false);
@@ -990,7 +872,7 @@ public class hangman2 extends javax.swing.JFrame {
             a14.setVisible(false);
         } else if (f.equals("1")) {
             labal2.setText("0");
-            lose lose = new lose();
+            Lose lose = new Lose();
             lose.setVisible(true);
             this.dispose();
             a14.setVisible(false);
@@ -1022,7 +904,7 @@ public class hangman2 extends javax.swing.JFrame {
             a15.setVisible(false);
         } else if (f.equals("1")) {
             labal2.setText("0");
-            lose lose = new lose();
+            Lose lose = new Lose();
             lose.setVisible(true);
             this.dispose();
             a15.setVisible(false);
@@ -1032,7 +914,6 @@ public class hangman2 extends javax.swing.JFrame {
 
             }
         }
-
     }//GEN-LAST:event_a15ActionPerformed
 
     private void a16ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_a16ActionPerformed
@@ -1055,7 +936,7 @@ public class hangman2 extends javax.swing.JFrame {
             a16.setVisible(false);
         } else if (f.equals("1")) {
             labal2.setText("0");
-            lose lose = new lose();
+            Lose lose = new Lose();
             lose.setVisible(true);
             this.dispose();
             a16.setVisible(false);
@@ -1069,7 +950,7 @@ public class hangman2 extends javax.swing.JFrame {
 
     private void a17ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_a17ActionPerformed
 
-        text1.setText("s");
+        text6.setText("s");
         a17.setVisible(false);
     }//GEN-LAST:event_a17ActionPerformed
 
@@ -1093,7 +974,7 @@ public class hangman2 extends javax.swing.JFrame {
             a18.setVisible(false);
         } else if (f.equals("1")) {
             labal2.setText("0");
-            lose lose = new lose();
+            Lose lose = new Lose();
             lose.setVisible(true);
             this.dispose();
             a18.setVisible(false);
@@ -1125,7 +1006,7 @@ public class hangman2 extends javax.swing.JFrame {
             a19.setVisible(false);
         } else if (f.equals("1")) {
             labal2.setText("0");
-            lose lose = new lose();
+            Lose lose = new Lose();
             lose.setVisible(true);
             this.dispose();
             a19.setVisible(false);
@@ -1145,10 +1026,7 @@ public class hangman2 extends javax.swing.JFrame {
         String f3 = text4.getText();
         String f4 = text5.getText();
         String f5 = text6.getText();
-        String f6 = text7.getText();
-        String f7 = text8.getText();
-        if (f.equals("s") && f1.equals("h") && f2.equals("i") && f3.equals("k") && f4.equals("p") && f5.equals("o")
-                && f6.equals("s") && f7.equals("h")) {
+        if (f.equals("o") && f1.equals("t") && f2.equals("o") && f3.equals("b") && f4.equals("o") && f5.equals("s")) {
             btna.setVisible(true);
             btnb.setVisible(false);
             labal2.setText("win");
@@ -1159,60 +1037,29 @@ public class hangman2 extends javax.swing.JFrame {
             text4.setBackground(Color.green);
             text5.setBackground(Color.green);
             text6.setBackground(Color.green);
-            text7.setBackground(Color.green);
-            text8.setBackground(Color.green);
         } else {
-            text1.setBackground(Color.red);
-            text2.setBackground(Color.red);
-            text3.setBackground(Color.red);
-            text4.setBackground(Color.red);
-            text5.setBackground(Color.red);
-            text6.setBackground(Color.red);
-            text7.setBackground(Color.red);
-            text8.setBackground(Color.red);
+            Error error = new Error();
+            error.setVisible(true);
         }
     }//GEN-LAST:event_btnbActionPerformed
 
     private void btnaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnaActionPerformed
 
-        hangman3 hangman = new hangman3();
+        Win hangman = new Win();
         this.dispose();
         hangman.setVisible(true);
         Color f = panel1.getBackground();
         if (f.equals(white)) {
             hangman.panel1.setBackground(Color.white);
+            hangman.panel2.setBackground(Color.white);
         }
     }//GEN-LAST:event_btnaActionPerformed
-
-    private void a20ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_a20ActionPerformed
-
-        text5.setText("p");
-        a20.setVisible(false);
-    }//GEN-LAST:event_a20ActionPerformed
-
-    private void a21ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_a21ActionPerformed
-
-        text4.setText("k");
-        a21.setVisible(false);
-    }//GEN-LAST:event_a21ActionPerformed
-
-    private void a22ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_a22ActionPerformed
-
-        text3.setText("i");
-        a22.setVisible(false);
-    }//GEN-LAST:event_a22ActionPerformed
-
-    private void a23ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_a23ActionPerformed
-
-        text7.setText("s");
-        a23.setVisible(false);
-    }//GEN-LAST:event_a23ActionPerformed
 
     public static void main(String args[]) {
 
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new hangman2().setVisible(true);
+                new Hang_man_3().setVisible(true);
             }
         });
     }
@@ -1234,10 +1081,6 @@ public class hangman2 extends javax.swing.JFrame {
     private javax.swing.JButton a18;
     private javax.swing.JButton a19;
     private javax.swing.JButton a2;
-    private javax.swing.JButton a20;
-    private javax.swing.JButton a21;
-    private javax.swing.JButton a22;
-    private javax.swing.JButton a23;
     private javax.swing.JButton a3;
     private javax.swing.JButton a4;
     private javax.swing.JButton a5;
@@ -1257,7 +1100,5 @@ public class hangman2 extends javax.swing.JFrame {
     private javax.swing.JTextField text4;
     private javax.swing.JTextField text5;
     private javax.swing.JTextField text6;
-    private javax.swing.JTextField text7;
-    private javax.swing.JTextField text8;
     // End of variables declaration//GEN-END:variables
 }

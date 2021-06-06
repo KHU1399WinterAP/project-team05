@@ -3,7 +3,7 @@ package gui.mainmenu;
 import database.Database;
 import gui.dashboard.Dashboard;
 import javax.swing.JFrame;
-import models.user;
+import models.User;
 
 public class Loginmenu extends javax.swing.JFrame {
 
@@ -186,7 +186,7 @@ public class Loginmenu extends javax.swing.JFrame {
         String password = String.valueOf(jPasswordField1.getPassword());
 
         if (!username.isBlank()) {
-            user user = Database.getUserByUsername(username);
+            User user = Database.getUserByUsername(username);
 
             if (user != null && user.password.equals(password)) {
                 Dashboard dashboard = new Dashboard();

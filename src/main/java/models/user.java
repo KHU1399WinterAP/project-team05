@@ -1,18 +1,18 @@
 package models;
 
-public class user {
+public class User {
 
     public String username;
     public String password;
     public int settingsId;
 
-    public user(String username, String password) {
+    public User(String username, String password) {
         this.username = username;
         this.password = password;
 
     }
 
-    public user(String username, char[] password) {
+    public User(String username, char[] password) {
         super();
         this.username = username;
         this.password = String.valueOf(password);
