@@ -1,4 +1,3 @@
-
 package gui.dashboard;
 
 import gui.setting.Theme;
@@ -10,14 +9,12 @@ import javax.swing.JFrame;
 
 public class Setting extends javax.swing.JFrame {
 
-
     public Setting() {
         initComponents();
-           setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+        setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         setResizable(false);
         setLocationRelativeTo(null);
     }
-
 
     @SuppressWarnings("unchecked")
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
@@ -139,63 +136,62 @@ public class Setting extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-       
-        Theme theme=new Theme();
+
+        Theme theme = new Theme();
         this.setVisible(false);
         theme.setVisible(true);
-        Color f=panel1.getBackground();
-        if(f.equals(white)){
+        Color f = panel1.getBackground();
+        if (f.equals(white)) {
             theme.panel1.setBackground(Color.white);
             theme.label1.setForeground(Color.red);
             theme.label2.setForeground(Color.red);
         }
-      
+
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
-      
-         newpass newpass=new newpass();
+
+        newpass newpass = new newpass();
         this.setVisible(false);
         newpass.setVisible(true);
-         Color f=panel1.getBackground();
-        if(f.equals(white)){
+        Color f = panel1.getBackground();
+        if (f.equals(white)) {
             newpass.panel1.setBackground(Color.white);
             newpass.label1.setForeground(Color.red);
             newpass.label2.setForeground(Color.red);
             newpass.label3.setForeground(Color.red);
             newpass.label4.setForeground(Color.red);
         }
-     
+
     }//GEN-LAST:event_jButton2ActionPerformed
 
     private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
-       
-       Dashboard dashboard=new Dashboard(); 
-       this.setVisible(false);
+
+        Dashboard dashboard = new Dashboard();
+        this.setVisible(false);
         dashboard.setVisible(true);
-             Color f=panel1.getBackground();
-        if(f.equals(white)){
+        Color f = panel1.getBackground();
+        if (f.equals(white)) {
             dashboard.panel3.setBackground(Color.white);
             dashboard.panel2.setBackground(Color.orange);
-         
+
         }
     }//GEN-LAST:event_jButton4ActionPerformed
 
     private void jButton8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton8ActionPerformed
-       
+
         panel1.setBackground(Color.BLACK);
         label1.setForeground(Color.cyan);
     }//GEN-LAST:event_jButton8ActionPerformed
 
     private void jButton9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton9ActionPerformed
-        
+
         panel1.setBackground(Color.WHITE);
         label1.setForeground(Color.red);
     }//GEN-LAST:event_jButton9ActionPerformed
 
-  
     public static void main(String args[]) {
-      
+
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
                 new Setting().setVisible(true);

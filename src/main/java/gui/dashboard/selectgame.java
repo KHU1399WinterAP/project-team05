@@ -1,4 +1,3 @@
-
 package gui.dashboard;
 
 import gui.dashboard.Dashboard;
@@ -9,19 +8,15 @@ import static java.awt.Color.white;
 import javax.print.attribute.standard.Media;
 import javax.swing.JFrame;
 
-
-
 public class selectgame extends javax.swing.JFrame {
-
 
     public selectgame() {
         initComponents();
-           setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+        setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         setResizable(false);
         setLocationRelativeTo(null);
     }
 
-  
     @SuppressWarnings("unchecked")
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
@@ -142,58 +137,57 @@ public class selectgame extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton9ActionPerformed
-      
+
         panel1.setBackground(Color.BLACK);
         label1.setForeground(Color.cyan);
     }//GEN-LAST:event_jButton9ActionPerformed
 
     private void jButton10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton10ActionPerformed
-      
+
         panel1.setBackground(Color.WHITE);
         label1.setForeground(Color.red);
     }//GEN-LAST:event_jButton10ActionPerformed
 
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
-     
-        Dashboard dashboard=new Dashboard();
+
+        Dashboard dashboard = new Dashboard();
         dashboard.setVisible(true);
         this.dispose();
-                 Color f=panel1.getBackground();
-        if(f.equals(white)){
+        Color f = panel1.getBackground();
+        if (f.equals(white)) {
             dashboard.panel3.setBackground(Color.white);
             dashboard.panel2.setBackground(Color.orange);
-         
+
         }
     }//GEN-LAST:event_jButton3ActionPerformed
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-        
-        first1 s=new first1();
+
+        first1 s = new first1();
         s.setVisible(true);
         this.dispose();
-                    Color f=panel1.getBackground();
-        if(f.equals(white)){
+        Color f = panel1.getBackground();
+        if (f.equals(white)) {
             s.panel1.setBackground(Color.orange);
             s.panel2.setBackground(Color.white);
-         
+
         }
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
-      
-       hangman hangman=new hangman();
-       this.dispose();
-       hangman.setVisible(true);
-       Color f=panel1.getBackground();
-       if(f.equals(white)){
-           hangman.panel1.setBackground(Color.white);
-       }
-        
+
+        hangman hangman = new hangman();
+        this.dispose();
+        hangman.setVisible(true);
+        Color f = panel1.getBackground();
+        if (f.equals(white)) {
+            hangman.panel1.setBackground(Color.white);
+        }
+
     }//GEN-LAST:event_jButton2ActionPerformed
 
-    
     public static void main(String args[]) {
-        
+
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
                 new selectgame().setVisible(true);

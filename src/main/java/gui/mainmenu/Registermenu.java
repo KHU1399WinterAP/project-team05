@@ -1,4 +1,3 @@
-
 package gui.mainmenu;
 
 import database.Database;
@@ -6,12 +5,13 @@ import javax.swing.JFrame;
 import models.user;
 
 public class Registermenu extends javax.swing.JFrame {
+
     private JFrame previousFrame;
- 
+
     public Registermenu(JFrame previousFrame) {
         initComponents();
-        this.previousFrame=previousFrame;
-           setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+        this.previousFrame = previousFrame;
+        setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         setResizable(false);
         setLocationRelativeTo(null);
     }
@@ -19,7 +19,6 @@ public class Registermenu extends javax.swing.JFrame {
     private Registermenu() {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
-
 
     @SuppressWarnings("unchecked")
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
@@ -167,24 +166,23 @@ public class Registermenu extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
-       
-           MainMenu mainmenu=new MainMenu();
+
+        MainMenu mainmenu = new MainMenu();
         this.setVisible(false);
         mainmenu.setVisible(true);
     }//GEN-LAST:event_jButton2ActionPerformed
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-       
-        user user =new user(jTextField1.getText(),jPasswordField1.getPassword());
+
+        user user = new user(jTextField1.getText(), jPasswordField1.getPassword());
         System.out.println(user);
         Database.insertIntoUser(user);
         this.dispose();
         previousFrame.setVisible(true);
     }//GEN-LAST:event_jButton1ActionPerformed
 
-
     public static void main(String args[]) {
-    
+
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
                 new Registermenu().setVisible(true);

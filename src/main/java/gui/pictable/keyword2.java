@@ -1,21 +1,17 @@
-
 package gui.pictable;
 
 import java.awt.Color;
 import static java.awt.Color.white;
 import javax.swing.JFrame;
 
-
 public class keyword2 extends javax.swing.JFrame {
 
- 
     public keyword2() {
         initComponents();
-           setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+        setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         setResizable(false);
         setLocationRelativeTo(null);
     }
-
 
     @SuppressWarnings("unchecked")
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
@@ -139,58 +135,64 @@ public class keyword2 extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void aActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_aActionPerformed
-        
-       second first1=new second();
-        first1.w.setText("b");first1.b.setText("a");first1.a2.setText("y");first1.s.setText("s");
+
+        second first1 = new second();
+        first1.w.setText("b");
+        first1.b.setText("a");
+        first1.a2.setText("y");
+        first1.s.setText("s");
         first1.setVisible(true);
         this.dispose();
         first1.btnhelp.setVisible(false);
-               Color f=panel1.getBackground();
-        if(f.equals(white)){
-           first1.panel2.setBackground(Color.white);
-           first1.panel1.setBackground(Color.orange);
-           
+        Color f = panel1.getBackground();
+        if (f.equals(white)) {
+            first1.panel2.setBackground(Color.white);
+            first1.panel1.setBackground(Color.orange);
+
         }
     }//GEN-LAST:event_aActionPerformed
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
-        
-        second first1=new second();
-        first1.s.setText("s");first1.t.setText("i");first1.u.setText("r");first1.v.setText("a");first1.w.setText("b");
+
+        second first1 = new second();
+        first1.s.setText("s");
+        first1.t.setText("i");
+        first1.u.setText("r");
+        first1.v.setText("a");
+        first1.w.setText("b");
         first1.x.setText("i");
         first1.setVisible(true);
         this.dispose();
         first1.btnhelp.setVisible(false);
-               Color f=panel1.getBackground();
-        if(f.equals(white)){
-           first1.panel2.setBackground(Color.white);
-           first1.panel1.setBackground(Color.orange);
-           
+        Color f = panel1.getBackground();
+        if (f.equals(white)) {
+            first1.panel2.setBackground(Color.white);
+            first1.panel1.setBackground(Color.orange);
+
         }
-        
+
     }//GEN-LAST:event_jButton2ActionPerformed
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-     
-        second first1=new second();
+
+        second first1 = new second();
         first1.setVisible(true);
         this.dispose();
-                       Color f=panel1.getBackground();
-        if(f.equals(white)){
-           first1.panel2.setBackground(Color.white);
-           first1.panel1.setBackground(Color.orange);
-           
+        Color f = panel1.getBackground();
+        if (f.equals(white)) {
+            first1.panel2.setBackground(Color.white);
+            first1.panel1.setBackground(Color.orange);
+
         }
 
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void panel1AncestorAdded(javax.swing.event.AncestorEvent evt) {//GEN-FIRST:event_panel1AncestorAdded
-      
+
     }//GEN-LAST:event_panel1AncestorAdded
 
-  
     public static void main(String args[]) {
-     
+
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
                 new keyword2().setVisible(true);

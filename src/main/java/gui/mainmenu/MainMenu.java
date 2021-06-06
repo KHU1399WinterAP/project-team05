@@ -1,21 +1,17 @@
-
 package gui.mainmenu;
 
 import gui.mainmenu.Registermenu;
 import gui.mainmenu.Loginmenu;
 import javax.swing.JFrame;
 
-
 public class MainMenu extends javax.swing.JFrame {
 
- 
     public MainMenu() {
         initComponents();
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setResizable(false);
         setLocationRelativeTo(null);
     }
-
 
     @SuppressWarnings("unchecked")
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
@@ -137,27 +133,26 @@ public class MainMenu extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
-    
-       Registermenu registermenu=new Registermenu(this);
-       this.setVisible(false);
-       registermenu.setVisible(true);
+
+        Registermenu registermenu = new Registermenu(this);
+        this.setVisible(false);
+        registermenu.setVisible(true);
     }//GEN-LAST:event_jButton3ActionPerformed
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-        
-        Loginmenu loginmenu=new Loginmenu();
+
+        Loginmenu loginmenu = new Loginmenu();
         this.setVisible(false);
         loginmenu.setVisible(true);
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
-       
+
         this.setVisible(false);
     }//GEN-LAST:event_jButton2ActionPerformed
 
- 
     public static void main(String args[]) {
-      
+
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
                 new MainMenu().setVisible(true);

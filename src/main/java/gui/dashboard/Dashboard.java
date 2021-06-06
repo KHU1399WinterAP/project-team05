@@ -1,4 +1,3 @@
-
 package gui.dashboard;
 
 import java.awt.Color;
@@ -8,13 +7,12 @@ import javax.swing.JFrame;
 public class Dashboard extends javax.swing.JFrame {
 
     public Dashboard() {
-      initComponents();
-         setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+        initComponents();
+        setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         setResizable(false);
         setLocationRelativeTo(null);
-     
-    }
 
+    }
 
     @SuppressWarnings("unchecked")
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
@@ -218,69 +216,68 @@ public class Dashboard extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
-      
+
         this.setVisible(false);
     }//GEN-LAST:event_jButton4ActionPerformed
 
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
-       
-       Setting settings=new Setting();
+
+        Setting settings = new Setting();
         this.setVisible(false);
         settings.setVisible(true);
-        Color f=panel3.getBackground();
-        if(f.equals(white)){
+        Color f = panel3.getBackground();
+        if (f.equals(white)) {
             settings.panel1.setBackground(Color.white);
             settings.label1.setForeground(Color.red);
         }
     }//GEN-LAST:event_jButton3ActionPerformed
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
-    
-        selectgame singleplayer=new selectgame();
+
+        selectgame singleplayer = new selectgame();
         this.setVisible(false);
         singleplayer.setVisible(true);
-        Color f=panel3.getBackground();
-        if(f.equals(white)){
+        Color f = panel3.getBackground();
+        if (f.equals(white)) {
             singleplayer.panel1.setBackground(Color.white);
             singleplayer.label1.setForeground(Color.red);
         }
     }//GEN-LAST:event_jButton2ActionPerformed
 
     private void panel3AncestorAdded(javax.swing.event.AncestorEvent evt) {//GEN-FIRST:event_panel3AncestorAdded
-       
+
     }//GEN-LAST:event_panel3AncestorAdded
 
     private void jButton6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton6ActionPerformed
-       
-        help help=new help();
+
+        help help = new help();
         this.setVisible(false);
         help.setVisible(true);
-          Color f=panel3.getBackground();
-        if(f.equals(white)){
-               help.panel1.setBackground(Color.white);
-        help.jLabel1.setForeground(Color.red);
-        help.label2.setForeground(Color.red);
-        help.label3.setForeground(Color.red);
-        help.label4.setForeground(Color.red);
-         help.label5.setForeground(Color.red);
+        Color f = panel3.getBackground();
+        if (f.equals(white)) {
+            help.panel1.setBackground(Color.white);
+            help.jLabel1.setForeground(Color.red);
+            help.label2.setForeground(Color.red);
+            help.label3.setForeground(Color.red);
+            help.label4.setForeground(Color.red);
+            help.label5.setForeground(Color.red);
         }
     }//GEN-LAST:event_jButton6ActionPerformed
 
     private void jButton8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton8ActionPerformed
-        
+
         panel3.setBackground(Color.WHITE);
         panel2.setBackground(Color.orange);
     }//GEN-LAST:event_jButton8ActionPerformed
 
     private void jButton9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton9ActionPerformed
-        
+
         panel3.setBackground(Color.BLACK);
         panel2.setBackground(Color.cyan);
     }//GEN-LAST:event_jButton9ActionPerformed
 
-  
     public static void main(String args[]) {
- 
+
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
                 new Dashboard().setVisible(true);

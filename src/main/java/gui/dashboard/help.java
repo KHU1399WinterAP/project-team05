@@ -1,4 +1,3 @@
-
 package gui.dashboard;
 
 import gui.dashboard.Dashboard;
@@ -6,18 +5,15 @@ import java.awt.Color;
 import static java.awt.Color.white;
 import javax.swing.JFrame;
 
-
 public class help extends javax.swing.JFrame {
 
-  
     public help() {
         initComponents();
-           setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+        setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         setResizable(false);
         setLocationRelativeTo(null);
     }
 
- 
     @SuppressWarnings("unchecked")
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
@@ -163,41 +159,40 @@ public class help extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton9ActionPerformed
-        
+
         panel1.setBackground(Color.white);
         jLabel1.setForeground(Color.red);
         label2.setForeground(Color.red);
         label3.setForeground(Color.red);
         label4.setForeground(Color.red);
-         label5.setForeground(Color.red);
+        label5.setForeground(Color.red);
     }//GEN-LAST:event_jButton9ActionPerformed
 
     private void jButton8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton8ActionPerformed
-        
+
         panel1.setBackground(Color.BLACK);
-          jLabel1.setForeground(Color.CYAN);
+        jLabel1.setForeground(Color.CYAN);
         label2.setForeground(Color.CYAN);
         label3.setForeground(Color.CYAN);
         label4.setForeground(Color.CYAN);
-         label5.setForeground(Color.CYAN);
+        label5.setForeground(Color.CYAN);
     }//GEN-LAST:event_jButton8ActionPerformed
 
     private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
-       
-        Dashboard dashboard=new Dashboard();
+
+        Dashboard dashboard = new Dashboard();
         this.setVisible(false);
         dashboard.setVisible(true);
-        Color f=panel1.getBackground();
-           if(f.equals(white)){
+        Color f = panel1.getBackground();
+        if (f.equals(white)) {
             dashboard.panel3.setBackground(Color.white);
-           dashboard.panel2.setBackground(Color.orange);
+            dashboard.panel2.setBackground(Color.orange);
         }
-        
+
     }//GEN-LAST:event_jButton4ActionPerformed
 
-   
     public static void main(String args[]) {
-     
+
         try {
             for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
                 if ("Nimbus".equals(info.getName())) {
@@ -214,7 +209,7 @@ public class help extends javax.swing.JFrame {
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
             java.util.logging.Logger.getLogger(help.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
-      
+
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
                 new help().setVisible(true);

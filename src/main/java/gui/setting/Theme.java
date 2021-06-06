@@ -1,4 +1,3 @@
-
 package gui.setting;
 
 import gui.dashboard.Setting;
@@ -7,16 +6,16 @@ import static java.awt.Color.white;
 import javax.swing.JFrame;
 
 public class Theme extends javax.swing.JFrame {
-   public static int x;
-  
+
+    public static int x;
+
     public Theme() {
         initComponents();
-           setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+        setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         setResizable(false);
         setLocationRelativeTo(null);
-       
-    }
 
+    }
 
     @SuppressWarnings("unchecked")
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
@@ -153,50 +152,49 @@ public class Theme extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-       
-              Setting dashboard=new Setting();
+
+        Setting dashboard = new Setting();
         this.setVisible(false);
         dashboard.setVisible(true);
-        Color f=panel1.getBackground();
-        if(f.equals(white)){
-           dashboard.panel1.setBackground(Color.white);
-           dashboard.label1.setForeground(Color.red);
+        Color f = panel1.getBackground();
+        if (f.equals(white)) {
+            dashboard.panel1.setBackground(Color.white);
+            dashboard.label1.setForeground(Color.red);
         }
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
-        
-  Setting setting=new Setting();
-  setting.setVisible(true);
-  this.dispose();
+
+        Setting setting = new Setting();
+        setting.setVisible(true);
+        this.dispose();
     }//GEN-LAST:event_jButton2ActionPerformed
 
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
-       
-      Setting setting=new Setting();
-      setting.panel1.setBackground(Color.white);
-      setting.label1.setForeground(Color.red);
-      setting.setVisible(true);
-       this.dispose();
+
+        Setting setting = new Setting();
+        setting.panel1.setBackground(Color.white);
+        setting.label1.setForeground(Color.red);
+        setting.setVisible(true);
+        this.dispose();
     }//GEN-LAST:event_jButton3ActionPerformed
 
     private void jButton8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton8ActionPerformed
-        
+
         panel1.setBackground(Color.BLACK);
-         label1.setForeground(Color.cyan);
-          label2.setForeground(Color.cyan);
+        label1.setForeground(Color.cyan);
+        label2.setForeground(Color.cyan);
     }//GEN-LAST:event_jButton8ActionPerformed
 
     private void jButton9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton9ActionPerformed
-       
+
         panel1.setBackground(Color.WHITE);
-         label1.setForeground(Color.red);
-            label2.setForeground(Color.red);
+        label1.setForeground(Color.red);
+        label2.setForeground(Color.red);
     }//GEN-LAST:event_jButton9ActionPerformed
 
- 
     public static void main(String args[]) {
-    
+
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
                 new Theme().setVisible(true);

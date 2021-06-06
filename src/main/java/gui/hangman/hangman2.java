@@ -1,4 +1,3 @@
-
 package gui.hangman;
 
 import gui.dashboard.selectgame;
@@ -7,19 +6,16 @@ import java.awt.Color;
 import static java.awt.Color.white;
 import javax.swing.JFrame;
 
-
 public class hangman2 extends javax.swing.JFrame {
 
-   
     public hangman2() {
         initComponents();
         btna.setVisible(false);
-           setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+        setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         setResizable(false);
         setLocationRelativeTo(null);
     }
 
- 
     @SuppressWarnings("unchecked")
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
@@ -544,746 +540,676 @@ public class hangman2 extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void Start1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Start1ActionPerformed
-      
-        hangman2 hangman=new hangman2();
+
+        hangman2 hangman = new hangman2();
         this.dispose();
         hangman.setVisible(true);
-           Color f=panel1.getBackground();
-       if(f.equals(white)){
-           hangman.panel1.setBackground(Color.white);}
+        Color f = panel1.getBackground();
+        if (f.equals(white)) {
+            hangman.panel1.setBackground(Color.white);
+        }
     }//GEN-LAST:event_Start1ActionPerformed
 
     private void Start2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Start2ActionPerformed
-      
-        String f=labal2.getText();
-        if(f.equals("5")){
+
+        String f = labal2.getText();
+        if (f.equals("5")) {
             labal2.setText("3");
             a19.setVisible(false);
             a1.setVisible(false);
             a9.setVisible(false);
-        }
-        else if(f.equals("4")){
+        } else if (f.equals("4")) {
             labal2.setText("2");
             a19.setVisible(false);
             a1.setVisible(false);
             a15.setVisible(false);
             a13.setVisible(false);
-        }
-        else if(f.equals("3")){
+        } else if (f.equals("3")) {
             labal2.setText("1");
             a19.setVisible(false);
             a1.setVisible(false);
             a15.setVisible(false);
             a13.setVisible(false);
-        }
-        else{
-            lose lose=new lose();
+        } else {
+            lose lose = new lose();
             this.dispose();
             lose.setVisible(true);
-                   Color h=panel1.getBackground();
-        if(h.equals(white)){
-           lose.panel1.setBackground(Color.white);
-          
-           
-        }
-            
+            Color h = panel1.getBackground();
+            if (h.equals(white)) {
+                lose.panel1.setBackground(Color.white);
+
+            }
+
         }
     }//GEN-LAST:event_Start2ActionPerformed
 
     private void Start3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Start3ActionPerformed
-      
-        selectgame selectgame=new selectgame();
+
+        selectgame selectgame = new selectgame();
         this.dispose();
         selectgame.setVisible(true);
-             Color f=panel1.getBackground();
-        if(f.equals(white)){
-           selectgame.panel1.setBackground(Color.white);
-           selectgame.label1.setForeground(Color.red);
-           
+        Color f = panel1.getBackground();
+        if (f.equals(white)) {
+            selectgame.panel1.setBackground(Color.white);
+            selectgame.label1.setForeground(Color.red);
+
         }
     }//GEN-LAST:event_Start3ActionPerformed
 
     private void aActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_aActionPerformed
-      
-        String f=labal2.getText();
-        if(f.equals("5")){
+
+        String f = labal2.getText();
+        if (f.equals("5")) {
             labal2.setText("4");
             a.setVisible(false);
-        }
-        else if(f.equals("4")){
+        } else if (f.equals("4")) {
             labal2.setText("3");
             labal2.setForeground(Color.orange);
             a.setVisible(false);
-        }
-        else if(f.equals("3")){
+        } else if (f.equals("3")) {
             labal2.setText("2");
             labal2.setForeground(Color.orange);
             a.setVisible(false);
-        }
-        else if(f.equals("2")){
+        } else if (f.equals("2")) {
             labal2.setText("1");
             labal2.setForeground(Color.red);
             a.setVisible(false);
-        }
-        else if(f.equals("1")){
+        } else if (f.equals("1")) {
             labal2.setText("0");
-            lose lose=new lose();
+            lose lose = new lose();
             lose.setVisible(true);
             this.dispose();
             a.setVisible(false);
-                      Color h=panel1.getBackground();
-        if(h.equals(white)){
-           lose.panel1.setBackground(Color.white);
-           
-           
-        }
+            Color h = panel1.getBackground();
+            if (h.equals(white)) {
+                lose.panel1.setBackground(Color.white);
+
+            }
         }
 
     }//GEN-LAST:event_aActionPerformed
 
     private void a1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_a1ActionPerformed
-       
-        String f=labal2.getText();
-        if(f.equals("5")){
+
+        String f = labal2.getText();
+        if (f.equals("5")) {
             labal2.setText("4");
             a1.setVisible(false);
-        }
-        else if(f.equals("4")){
+        } else if (f.equals("4")) {
             labal2.setText("3");
             labal2.setForeground(Color.orange);
             a1.setVisible(false);
-        }
-        else if(f.equals("3")){
+        } else if (f.equals("3")) {
             labal2.setText("2");
             labal2.setForeground(Color.orange);
             a1.setVisible(false);
-        }
-        else if(f.equals("2")){
+        } else if (f.equals("2")) {
             labal2.setText("1");
             labal2.setForeground(Color.red);
             a1.setVisible(false);
-        }
-        else if(f.equals("1")){
+        } else if (f.equals("1")) {
             labal2.setText("0");
-            lose lose=new lose();
+            lose lose = new lose();
             lose.setVisible(true);
             this.dispose();
             a1.setVisible(false);
-                      Color h=panel1.getBackground();
-        if(h.equals(white)){
-           lose.panel1.setBackground(Color.white);
-           
-           
-        }
+            Color h = panel1.getBackground();
+            if (h.equals(white)) {
+                lose.panel1.setBackground(Color.white);
+
+            }
         }
 
     }//GEN-LAST:event_a1ActionPerformed
 
     private void a2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_a2ActionPerformed
-        
-         text2.setText("h");
+
+        text2.setText("h");
         a2.setVisible(false);
     }//GEN-LAST:event_a2ActionPerformed
 
     private void a3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_a3ActionPerformed
-        
-        String f=labal2.getText();
-        if(f.equals("5")){
+
+        String f = labal2.getText();
+        if (f.equals("5")) {
             labal2.setText("4");
             a3.setVisible(false);
-        }
-        else if(f.equals("4")){
+        } else if (f.equals("4")) {
             labal2.setText("3");
             labal2.setForeground(Color.orange);
             a3.setVisible(false);
-        }
-        else if(f.equals("3")){
+        } else if (f.equals("3")) {
             labal2.setText("2");
             labal2.setForeground(Color.orange);
             a3.setVisible(false);
-        }
-        else if(f.equals("2")){
+        } else if (f.equals("2")) {
             labal2.setText("1");
             labal2.setForeground(Color.red);
             a3.setVisible(false);
-        }
-        else if(f.equals("1")){
+        } else if (f.equals("1")) {
             labal2.setText("0");
-            lose lose=new lose();
+            lose lose = new lose();
             lose.setVisible(true);
             this.dispose();
             a3.setVisible(false);
-                      Color h=panel1.getBackground();
-        if(h.equals(white)){
-           lose.panel1.setBackground(Color.white);
-           
-           
-        }
+            Color h = panel1.getBackground();
+            if (h.equals(white)) {
+                lose.panel1.setBackground(Color.white);
+
+            }
         }
 
     }//GEN-LAST:event_a3ActionPerformed
 
     private void a4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_a4ActionPerformed
-      
-        String f=labal2.getText();
-        if(f.equals("5")){
+
+        String f = labal2.getText();
+        if (f.equals("5")) {
             labal2.setText("4");
             a4.setVisible(false);
-        }
-        else if(f.equals("4")){
+        } else if (f.equals("4")) {
             labal2.setText("3");
             labal2.setForeground(Color.orange);
             a4.setVisible(false);
-        }
-        else if(f.equals("3")){
+        } else if (f.equals("3")) {
             labal2.setText("2");
             labal2.setForeground(Color.orange);
             a4.setVisible(false);
-        }
-        else if(f.equals("2")){
+        } else if (f.equals("2")) {
             labal2.setText("1");
             labal2.setForeground(Color.red);
             a4.setVisible(false);
-        }
-        else if(f.equals("1")){
+        } else if (f.equals("1")) {
             labal2.setText("0");
-            lose lose=new lose();
+            lose lose = new lose();
             lose.setVisible(true);
             this.dispose();
             a4.setVisible(false);
-                      Color h=panel1.getBackground();
-        if(h.equals(white)){
-           lose.panel1.setBackground(Color.white);
-           
-           
-        }
+            Color h = panel1.getBackground();
+            if (h.equals(white)) {
+                lose.panel1.setBackground(Color.white);
+
+            }
         }
     }//GEN-LAST:event_a4ActionPerformed
 
     private void a5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_a5ActionPerformed
-      
-        String f=labal2.getText();
-        if(f.equals("5")){
+
+        String f = labal2.getText();
+        if (f.equals("5")) {
             labal2.setText("4");
             a5.setVisible(false);
-        }
-        else if(f.equals("4")){
+        } else if (f.equals("4")) {
             labal2.setText("3");
             labal2.setForeground(Color.orange);
             a5.setVisible(false);
-        }
-        else if(f.equals("3")){
+        } else if (f.equals("3")) {
             labal2.setText("2");
             labal2.setForeground(Color.orange);
             a5.setVisible(false);
-        }
-        else if(f.equals("2")){
+        } else if (f.equals("2")) {
             labal2.setText("1");
             labal2.setForeground(Color.red);
             a5.setVisible(false);
-        }
-        else if(f.equals("1")){
+        } else if (f.equals("1")) {
             labal2.setText("0");
-            lose lose=new lose();
+            lose lose = new lose();
             lose.setVisible(true);
             this.dispose();
             a5.setVisible(false);
-                      Color h=panel1.getBackground();
-        if(h.equals(white)){
-           lose.panel1.setBackground(Color.white);
-           
-           
-        }
+            Color h = panel1.getBackground();
+            if (h.equals(white)) {
+                lose.panel1.setBackground(Color.white);
+
+            }
         }
     }//GEN-LAST:event_a5ActionPerformed
 
     private void a6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_a6ActionPerformed
-    
-        String f=labal2.getText();
-        if(f.equals("5")){
+
+        String f = labal2.getText();
+        if (f.equals("5")) {
             labal2.setText("4");
             a6.setVisible(false);
-        }
-        else if(f.equals("4")){
+        } else if (f.equals("4")) {
             labal2.setText("3");
             labal2.setForeground(Color.orange);
             a6.setVisible(false);
-        }
-        else if(f.equals("3")){
+        } else if (f.equals("3")) {
             labal2.setText("2");
             labal2.setForeground(Color.orange);
             a6.setVisible(false);
-        }
-        else if(f.equals("2")){
+        } else if (f.equals("2")) {
             labal2.setText("1");
             labal2.setForeground(Color.red);
             a6.setVisible(false);
-        }
-        else if(f.equals("1")){
+        } else if (f.equals("1")) {
             labal2.setText("0");
-            lose lose=new lose();
+            lose lose = new lose();
             lose.setVisible(true);
             this.dispose();
             a6.setVisible(false);
-                      Color h=panel1.getBackground();
-        if(h.equals(white)){
-           lose.panel1.setBackground(Color.white);
-           
-           
-        }
+            Color h = panel1.getBackground();
+            if (h.equals(white)) {
+                lose.panel1.setBackground(Color.white);
+
+            }
         }
     }//GEN-LAST:event_a6ActionPerformed
 
     private void a7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_a7ActionPerformed
-      
-        String f=labal2.getText();
-        if(f.equals("5")){
+
+        String f = labal2.getText();
+        if (f.equals("5")) {
             labal2.setText("4");
             a7.setVisible(false);
-        }
-        else if(f.equals("4")){
+        } else if (f.equals("4")) {
             labal2.setText("3");
             labal2.setForeground(Color.orange);
             a7.setVisible(false);
-        }
-        else if(f.equals("3")){
+        } else if (f.equals("3")) {
             labal2.setText("2");
             labal2.setForeground(Color.orange);
             a7.setVisible(false);
-        }
-        else if(f.equals("2")){
+        } else if (f.equals("2")) {
             labal2.setText("1");
             labal2.setForeground(Color.red);
             a7.setVisible(false);
-        }
-        else if(f.equals("1")){
+        } else if (f.equals("1")) {
             labal2.setText("0");
-            lose lose=new lose();
+            lose lose = new lose();
             lose.setVisible(true);
             this.dispose();
             a7.setVisible(false);
-                      Color h=panel1.getBackground();
-        if(h.equals(white)){
-           lose.panel1.setBackground(Color.white);
-           
-           
-        }
+            Color h = panel1.getBackground();
+            if (h.equals(white)) {
+                lose.panel1.setBackground(Color.white);
+
+            }
         }
     }//GEN-LAST:event_a7ActionPerformed
 
     private void a8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_a8ActionPerformed
-      
+
         text6.setText("o");
         a8.setVisible(false);
     }//GEN-LAST:event_a8ActionPerformed
 
     private void a9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_a9ActionPerformed
-     
-        String f=labal2.getText();
-        if(f.equals("5")){
+
+        String f = labal2.getText();
+        if (f.equals("5")) {
             labal2.setText("4");
             a9.setVisible(false);
-        }
-        else if(f.equals("4")){
+        } else if (f.equals("4")) {
             labal2.setText("3");
             labal2.setForeground(Color.orange);
             a9.setVisible(false);
-        }
-        else if(f.equals("3")){
+        } else if (f.equals("3")) {
             labal2.setText("2");
             labal2.setForeground(Color.orange);
             a9.setVisible(false);
-        }
-        else if(f.equals("2")){
+        } else if (f.equals("2")) {
             labal2.setText("1");
             labal2.setForeground(Color.red);
             a9.setVisible(false);
-        }
-        else if(f.equals("1")){
+        } else if (f.equals("1")) {
             labal2.setText("0");
-            lose lose=new lose();
+            lose lose = new lose();
             lose.setVisible(true);
             this.dispose();
             a9.setVisible(false);
-                      Color h=panel1.getBackground();
-        if(h.equals(white)){
-           lose.panel1.setBackground(Color.white);
-           
-           
-        }
+            Color h = panel1.getBackground();
+            if (h.equals(white)) {
+                lose.panel1.setBackground(Color.white);
+
+            }
         }
     }//GEN-LAST:event_a9ActionPerformed
 
     private void a10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_a10ActionPerformed
-      
-        String f=labal2.getText();
-        if(f.equals("5")){
+
+        String f = labal2.getText();
+        if (f.equals("5")) {
             labal2.setText("4");
             a10.setVisible(false);
-        }
-        else if(f.equals("4")){
+        } else if (f.equals("4")) {
             labal2.setText("3");
             labal2.setForeground(Color.orange);
             a10.setVisible(false);
-        }
-        else if(f.equals("3")){
+        } else if (f.equals("3")) {
             labal2.setText("2");
             labal2.setForeground(Color.orange);
             a10.setVisible(false);
-        }
-        else if(f.equals("2")){
+        } else if (f.equals("2")) {
             labal2.setText("1");
             labal2.setForeground(Color.red);
             a10.setVisible(false);
-        }
-        else if(f.equals("1")){
+        } else if (f.equals("1")) {
             labal2.setText("0");
-            lose lose=new lose();
+            lose lose = new lose();
             lose.setVisible(true);
             this.dispose();
             a10.setVisible(false);
-                      Color h=panel1.getBackground();
-        if(h.equals(white)){
-           lose.panel1.setBackground(Color.white);
-           
-           
-        }
+            Color h = panel1.getBackground();
+            if (h.equals(white)) {
+                lose.panel1.setBackground(Color.white);
+
+            }
         }
     }//GEN-LAST:event_a10ActionPerformed
 
     private void a11ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_a11ActionPerformed
-       
-          String f=labal2.getText();
-        if(f.equals("5")){
+
+        String f = labal2.getText();
+        if (f.equals("5")) {
             labal2.setText("4");
             a11.setVisible(false);
-        }
-        else if(f.equals("4")){
+        } else if (f.equals("4")) {
             labal2.setText("3");
             labal2.setForeground(Color.orange);
             a11.setVisible(false);
-        }
-        else if(f.equals("3")){
+        } else if (f.equals("3")) {
             labal2.setText("2");
             labal2.setForeground(Color.orange);
             a11.setVisible(false);
-        }
-        else if(f.equals("2")){
+        } else if (f.equals("2")) {
             labal2.setText("1");
             labal2.setForeground(Color.red);
             a11.setVisible(false);
-        }
-        else if(f.equals("1")){
+        } else if (f.equals("1")) {
             labal2.setText("0");
-            lose lose=new lose();
+            lose lose = new lose();
             lose.setVisible(true);
             this.dispose();
             a11.setVisible(false);
-                      Color h=panel1.getBackground();
-        if(h.equals(white)){
-           lose.panel1.setBackground(Color.white);
-           
-           
-        }
+            Color h = panel1.getBackground();
+            if (h.equals(white)) {
+                lose.panel1.setBackground(Color.white);
+
+            }
         }
 
     }//GEN-LAST:event_a11ActionPerformed
 
     private void a12ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_a12ActionPerformed
-      
-     text8.setText("h");
-     a12.setVisible(false);
+
+        text8.setText("h");
+        a12.setVisible(false);
     }//GEN-LAST:event_a12ActionPerformed
 
     private void a13ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_a13ActionPerformed
-        
-        String f=labal2.getText();
-        if(f.equals("5")){
+
+        String f = labal2.getText();
+        if (f.equals("5")) {
             labal2.setText("4");
             a13.setVisible(false);
-        }
-        else if(f.equals("4")){
+        } else if (f.equals("4")) {
             labal2.setText("3");
             labal2.setForeground(Color.orange);
             a13.setVisible(false);
-        }
-        else if(f.equals("3")){
+        } else if (f.equals("3")) {
             labal2.setText("2");
             labal2.setForeground(Color.orange);
             a13.setVisible(false);
-        }
-        else if(f.equals("2")){
+        } else if (f.equals("2")) {
             labal2.setText("1");
             labal2.setForeground(Color.red);
             a13.setVisible(false);
-        }
-        else if(f.equals("1")){
+        } else if (f.equals("1")) {
             labal2.setText("0");
-            lose lose=new lose();
+            lose lose = new lose();
             lose.setVisible(true);
             this.dispose();
             a13.setVisible(false);
-                      Color h=panel1.getBackground();
-        if(h.equals(white)){
-           lose.panel1.setBackground(Color.white);
-           
-           
-        }
+            Color h = panel1.getBackground();
+            if (h.equals(white)) {
+                lose.panel1.setBackground(Color.white);
+
+            }
         }
     }//GEN-LAST:event_a13ActionPerformed
 
     private void a14ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_a14ActionPerformed
-        
-        String f=labal2.getText();
-        if(f.equals("5")){
+
+        String f = labal2.getText();
+        if (f.equals("5")) {
             labal2.setText("4");
             a14.setVisible(false);
-        }
-        else if(f.equals("4")){
+        } else if (f.equals("4")) {
             labal2.setText("3");
             labal2.setForeground(Color.orange);
             a14.setVisible(false);
-        }
-        else if(f.equals("3")){
+        } else if (f.equals("3")) {
             labal2.setText("2");
             labal2.setForeground(Color.orange);
             a14.setVisible(false);
-        }
-        else if(f.equals("2")){
+        } else if (f.equals("2")) {
             labal2.setText("1");
             labal2.setForeground(Color.red);
             a14.setVisible(false);
-        }
-        else if(f.equals("1")){
+        } else if (f.equals("1")) {
             labal2.setText("0");
-            lose lose=new lose();
+            lose lose = new lose();
             lose.setVisible(true);
             this.dispose();
             a14.setVisible(false);
-                      Color h=panel1.getBackground();
-        if(h.equals(white)){
-           lose.panel1.setBackground(Color.white);
-           
-           
-        }
+            Color h = panel1.getBackground();
+            if (h.equals(white)) {
+                lose.panel1.setBackground(Color.white);
+
+            }
         }
     }//GEN-LAST:event_a14ActionPerformed
 
     private void a15ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_a15ActionPerformed
-       
-          String f=labal2.getText();
-        if(f.equals("5")){
+
+        String f = labal2.getText();
+        if (f.equals("5")) {
             labal2.setText("4");
             a15.setVisible(false);
-        }
-        else if(f.equals("4")){
+        } else if (f.equals("4")) {
             labal2.setText("3");
             labal2.setForeground(Color.orange);
             a15.setVisible(false);
-        }
-        else if(f.equals("3")){
+        } else if (f.equals("3")) {
             labal2.setText("2");
             labal2.setForeground(Color.orange);
             a15.setVisible(false);
-        }
-        else if(f.equals("2")){
+        } else if (f.equals("2")) {
             labal2.setText("1");
             labal2.setForeground(Color.red);
             a15.setVisible(false);
-        }
-        else if(f.equals("1")){
+        } else if (f.equals("1")) {
             labal2.setText("0");
-            lose lose=new lose();
+            lose lose = new lose();
             lose.setVisible(true);
             this.dispose();
             a15.setVisible(false);
-                      Color h=panel1.getBackground();
-        if(h.equals(white)){
-           lose.panel1.setBackground(Color.white);
-           
-           
-        }
+            Color h = panel1.getBackground();
+            if (h.equals(white)) {
+                lose.panel1.setBackground(Color.white);
+
+            }
         }
 
     }//GEN-LAST:event_a15ActionPerformed
 
     private void a16ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_a16ActionPerformed
-        
-        String f=labal2.getText();
-        if(f.equals("5")){
+
+        String f = labal2.getText();
+        if (f.equals("5")) {
             labal2.setText("4");
             a16.setVisible(false);
-        }
-        else if(f.equals("4")){
+        } else if (f.equals("4")) {
             labal2.setText("3");
             labal2.setForeground(Color.orange);
             a16.setVisible(false);
-        }
-        else if(f.equals("3")){
+        } else if (f.equals("3")) {
             labal2.setText("2");
             labal2.setForeground(Color.orange);
             a16.setVisible(false);
-        }
-        else if(f.equals("2")){
+        } else if (f.equals("2")) {
             labal2.setText("1");
             labal2.setForeground(Color.red);
             a16.setVisible(false);
-        }
-        else if(f.equals("1")){
+        } else if (f.equals("1")) {
             labal2.setText("0");
-            lose lose=new lose();
+            lose lose = new lose();
             lose.setVisible(true);
             this.dispose();
             a16.setVisible(false);
-                      Color h=panel1.getBackground();
-        if(h.equals(white)){
-           lose.panel1.setBackground(Color.white);
-           
-           
-        }
+            Color h = panel1.getBackground();
+            if (h.equals(white)) {
+                lose.panel1.setBackground(Color.white);
+
+            }
         }
     }//GEN-LAST:event_a16ActionPerformed
 
     private void a17ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_a17ActionPerformed
-        
+
         text1.setText("s");
         a17.setVisible(false);
     }//GEN-LAST:event_a17ActionPerformed
 
     private void a18ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_a18ActionPerformed
-        
-        String f=labal2.getText();
-        if(f.equals("5")){
+
+        String f = labal2.getText();
+        if (f.equals("5")) {
             labal2.setText("4");
             a18.setVisible(false);
-        }
-        else if(f.equals("4")){
+        } else if (f.equals("4")) {
             labal2.setText("3");
             labal2.setForeground(Color.orange);
             a18.setVisible(false);
-        }
-        else if(f.equals("3")){
+        } else if (f.equals("3")) {
             labal2.setText("2");
             labal2.setForeground(Color.orange);
             a18.setVisible(false);
-        }
-        else if(f.equals("2")){
+        } else if (f.equals("2")) {
             labal2.setText("1");
             labal2.setForeground(Color.red);
             a18.setVisible(false);
-        }
-        else if(f.equals("1")){
+        } else if (f.equals("1")) {
             labal2.setText("0");
-            lose lose=new lose();
+            lose lose = new lose();
             lose.setVisible(true);
             this.dispose();
             a18.setVisible(false);
-                      Color h=panel1.getBackground();
-        if(h.equals(white)){
-           lose.panel1.setBackground(Color.white);
-           
-           
-        }
+            Color h = panel1.getBackground();
+            if (h.equals(white)) {
+                lose.panel1.setBackground(Color.white);
+
+            }
         }
     }//GEN-LAST:event_a18ActionPerformed
 
     private void a19ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_a19ActionPerformed
-      
-        String f=labal2.getText();
-        if(f.equals("5")){
+
+        String f = labal2.getText();
+        if (f.equals("5")) {
             labal2.setText("4");
             a19.setVisible(false);
-        }
-        else if(f.equals("4")){
+        } else if (f.equals("4")) {
             labal2.setText("3");
             labal2.setForeground(Color.orange);
             a19.setVisible(false);
-        }
-        else if(f.equals("3")){
+        } else if (f.equals("3")) {
             labal2.setText("2");
             labal2.setForeground(Color.orange);
             a19.setVisible(false);
-        }
-        else if(f.equals("2")){
+        } else if (f.equals("2")) {
             labal2.setText("1");
             labal2.setForeground(Color.red);
             a19.setVisible(false);
-        }
-        else if(f.equals("1")){
+        } else if (f.equals("1")) {
             labal2.setText("0");
-            lose lose=new lose();
+            lose lose = new lose();
             lose.setVisible(true);
             this.dispose();
             a19.setVisible(false);
-                      Color h=panel1.getBackground();
-        if(h.equals(white)){
-           lose.panel1.setBackground(Color.white);
-           
-           
-        }
+            Color h = panel1.getBackground();
+            if (h.equals(white)) {
+                lose.panel1.setBackground(Color.white);
+
+            }
         }
     }//GEN-LAST:event_a19ActionPerformed
 
     private void btnbActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnbActionPerformed
-      
-        String f=text1.getText();String f1=text2.getText();String f2=text3.getText();
-        String f3=text4.getText();String f4=text5.getText();String f5=text6.getText();
-       String f6=text7.getText();String f7=text8.getText();
-        if(f.equals("s")&&f1.equals("h")&&f2.equals("i")&&f3.equals("k")&&f4.equals("p")&&f5.equals("o")&&
-                f6.equals("s")&&f7.equals("h")){
+
+        String f = text1.getText();
+        String f1 = text2.getText();
+        String f2 = text3.getText();
+        String f3 = text4.getText();
+        String f4 = text5.getText();
+        String f5 = text6.getText();
+        String f6 = text7.getText();
+        String f7 = text8.getText();
+        if (f.equals("s") && f1.equals("h") && f2.equals("i") && f3.equals("k") && f4.equals("p") && f5.equals("o")
+                && f6.equals("s") && f7.equals("h")) {
             btna.setVisible(true);
             btnb.setVisible(false);
             labal2.setText("win");
             labal2.setForeground(Color.green);
-            text1.setBackground(Color.green);text2.setBackground(Color.green);text3.setBackground(Color.green);
-            text4.setBackground(Color.green);text5.setBackground(Color.green);text6.setBackground(Color.green);
-            text7.setBackground(Color.green);text8.setBackground(Color.green);
-        }
-        else{
-            text1.setBackground(Color.red);text2.setBackground(Color.red);text3.setBackground(Color.red);
-            text4.setBackground(Color.red);text5.setBackground(Color.red);text6.setBackground(Color.red);
-            text7.setBackground(Color.red);text8.setBackground(Color.red);
+            text1.setBackground(Color.green);
+            text2.setBackground(Color.green);
+            text3.setBackground(Color.green);
+            text4.setBackground(Color.green);
+            text5.setBackground(Color.green);
+            text6.setBackground(Color.green);
+            text7.setBackground(Color.green);
+            text8.setBackground(Color.green);
+        } else {
+            text1.setBackground(Color.red);
+            text2.setBackground(Color.red);
+            text3.setBackground(Color.red);
+            text4.setBackground(Color.red);
+            text5.setBackground(Color.red);
+            text6.setBackground(Color.red);
+            text7.setBackground(Color.red);
+            text8.setBackground(Color.red);
         }
     }//GEN-LAST:event_btnbActionPerformed
 
     private void btnaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnaActionPerformed
-      
-        hangman3 hangman=new hangman3();
+
+        hangman3 hangman = new hangman3();
         this.dispose();
         hangman.setVisible(true);
-         Color f=panel1.getBackground();
-       if(f.equals(white)){
-           hangman.panel1.setBackground(Color.white);
-       }
+        Color f = panel1.getBackground();
+        if (f.equals(white)) {
+            hangman.panel1.setBackground(Color.white);
+        }
     }//GEN-LAST:event_btnaActionPerformed
 
     private void a20ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_a20ActionPerformed
-        
-         text5.setText("p");
+
+        text5.setText("p");
         a20.setVisible(false);
     }//GEN-LAST:event_a20ActionPerformed
 
     private void a21ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_a21ActionPerformed
-        
+
         text4.setText("k");
         a21.setVisible(false);
     }//GEN-LAST:event_a21ActionPerformed
 
     private void a22ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_a22ActionPerformed
-        
-         text3.setText("i");
+
+        text3.setText("i");
         a22.setVisible(false);
     }//GEN-LAST:event_a22ActionPerformed
 
     private void a23ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_a23ActionPerformed
-      
+
         text7.setText("s");
         a23.setVisible(false);
     }//GEN-LAST:event_a23ActionPerformed
 
-   
     public static void main(String args[]) {
-       
+
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
                 new hangman2().setVisible(true);

@@ -1,4 +1,3 @@
-
 package gui.mainmenu;
 
 import database.Database;
@@ -10,11 +9,10 @@ public class Loginmenu extends javax.swing.JFrame {
 
     public Loginmenu() {
         initComponents();
-           setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+        setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         setResizable(false);
         setLocationRelativeTo(null);
     }
-
 
     @SuppressWarnings("unchecked")
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
@@ -172,38 +170,39 @@ public class Loginmenu extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jPanel2ComponentMoved(java.awt.event.ComponentEvent evt) {//GEN-FIRST:event_jPanel2ComponentMoved
-    
+
     }//GEN-LAST:event_jPanel2ComponentMoved
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
-     
-        MainMenu mainmenu=new MainMenu();
+
+        MainMenu mainmenu = new MainMenu();
         this.setVisible(false);
         mainmenu.setVisible(true);
     }//GEN-LAST:event_jButton2ActionPerformed
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-       
+
         String username = jTextField1.getText();
-		String password = String.valueOf(jPasswordField1.getPassword());
-				
-	if (!username.isBlank()) {
-	user user = Database.getUserByUsername(username);
-						
-	if (user != null && user.password.equals(password)) {
-	Dashboard dashboard = new Dashboard();
-        this.dispose();
-	dashboard.setVisible(true);
-		return;}}
-    
-	
+        String password = String.valueOf(jPasswordField1.getPassword());
+
+        if (!username.isBlank()) {
+            user user = Database.getUserByUsername(username);
+
+            if (user != null && user.password.equals(password)) {
+                Dashboard dashboard = new Dashboard();
+                this.dispose();
+                dashboard.setVisible(true);
+                return;
+            }
+        }
+
+
     }//GEN-LAST:event_jButton1ActionPerformed
-    
-  
-    public static void main(String [] args) {
-      
+
+    public static void main(String[] args) {
+
         java.awt.EventQueue.invokeLater(new Runnable() {
-            
+
             public void run() {
                 new Loginmenu().setVisible(true);
             }

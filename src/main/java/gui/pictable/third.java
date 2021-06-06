@@ -1,4 +1,3 @@
-
 package gui.pictable;
 
 import gui.pictable.fourth;
@@ -8,17 +7,15 @@ import static java.awt.Color.orange;
 import static java.awt.Color.white;
 import javax.swing.JFrame;
 
-
 public class third extends javax.swing.JFrame {
 
     public third() {
         initComponents();
-           setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+        setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         setResizable(false);
         setLocationRelativeTo(null);
     }
 
-  
     @SuppressWarnings("unchecked")
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
@@ -449,115 +446,188 @@ public class third extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-        
-         String []user=new String[100];
-        user[1]=a.getText();user[2]=b.getText();user[3]=c.getText();user[4]=d.getText();
-        user[5]=e.getText();user[6]=f.getText();user[7]=g.getText();user[8]=h.getText();
-        user[9]=i.getText();
-        user[10]=j.getText();user[11]=k.getText();user[12]=l.getText();user[13]=m.getText();
-        user[14]=n.getText();user[15]=o.getText();user[16]=p.getText();
-        user[17]=r.getText();user[18]=q.getText();user[19]=s.getText();user[20]=t.getText();
-        user[21]=u.getText();user[22]=v.getText();user[23]=w.getText();user[24]=a1.getText();user[25]=a2.getText();
-        user[26]=a3.getText();user[27]=a4.getText();user[28]=a5.getText();
-        if(user[1].equals("d")&&user[2].equals("a")&&user[3].equals("s")&&user[4].equals("t")&&user[5].equals("a")&&
-        user[6].equals("n")&&user[7].equals("d")&&user[8].equals("a")&&user[9].equals("z")&&user[10].equals("b")&&user[11].equals("e")&&user[12].equals("n")&&user[13].equals("l")&&user[14].equals("a")&&
-        user[15].equals("e")&&user[16].equals("n")&&user[17].equals("s")&&user[18].equals("a")&&user[19].equals("r")&&user[20].equals("s")&&user[21].equals("h")&&
-        user[22].equals("i")&&user[23].equals("r")&&user[24].equals("o")&&user[25].equals("r")&&user[26].equals("o")&&
-        user[27].equals("p")&&user[28].equals("i")){
+
+        String[] user = new String[100];
+        user[1] = a.getText();
+        user[2] = b.getText();
+        user[3] = c.getText();
+        user[4] = d.getText();
+        user[5] = e.getText();
+        user[6] = f.getText();
+        user[7] = g.getText();
+        user[8] = h.getText();
+        user[9] = i.getText();
+        user[10] = j.getText();
+        user[11] = k.getText();
+        user[12] = l.getText();
+        user[13] = m.getText();
+        user[14] = n.getText();
+        user[15] = o.getText();
+        user[16] = p.getText();
+        user[17] = r.getText();
+        user[18] = q.getText();
+        user[19] = s.getText();
+        user[20] = t.getText();
+        user[21] = u.getText();
+        user[22] = v.getText();
+        user[23] = w.getText();
+        user[24] = a1.getText();
+        user[25] = a2.getText();
+        user[26] = a3.getText();
+        user[27] = a4.getText();
+        user[28] = a5.getText();
+        if (user[1].equals("d") && user[2].equals("a") && user[3].equals("s") && user[4].equals("t") && user[5].equals("a")
+                && user[6].equals("n") && user[7].equals("d") && user[8].equals("a") && user[9].equals("z") && user[10].equals("b") && user[11].equals("e") && user[12].equals("n") && user[13].equals("l") && user[14].equals("a")
+                && user[15].equals("e") && user[16].equals("n") && user[17].equals("s") && user[18].equals("a") && user[19].equals("r") && user[20].equals("s") && user[21].equals("h")
+                && user[22].equals("i") && user[23].equals("r") && user[24].equals("o") && user[25].equals("r") && user[26].equals("o")
+                && user[27].equals("p") && user[28].equals("i")) {
             a.setBackground(Color.green);
-            b.setBackground(Color.green);c.setBackground(Color.green);d.setBackground(Color.green);e.setBackground(Color.green);
-            f.setBackground(Color.green);g.setBackground(Color.green);h.setBackground(Color.green);i.setBackground(Color.green);
+            b.setBackground(Color.green);
+            c.setBackground(Color.green);
+            d.setBackground(Color.green);
+            e.setBackground(Color.green);
+            f.setBackground(Color.green);
+            g.setBackground(Color.green);
+            h.setBackground(Color.green);
+            i.setBackground(Color.green);
             j.setBackground(Color.green);
-            k.setBackground(Color.green);l.setBackground(Color.green);m.setBackground(Color.green);n.setBackground(Color.green);
-            p.setBackground(Color.green);o.setBackground(Color.green);
-             r.setBackground(Color.green);
-            q.setBackground(Color.green);s.setBackground(Color.green);t.setBackground(Color.green);u.setBackground(Color.green);
-            v.setBackground(Color.green);w.setBackground(Color.green);
-            a1.setBackground(Color.green);a2.setBackground(Color.green);a3.setBackground(Color.green);
-            a4.setBackground(Color.green);a5.setBackground(Color.green);
-            fourth fourth=new fourth();
+            k.setBackground(Color.green);
+            l.setBackground(Color.green);
+            m.setBackground(Color.green);
+            n.setBackground(Color.green);
+            p.setBackground(Color.green);
+            o.setBackground(Color.green);
+            r.setBackground(Color.green);
+            q.setBackground(Color.green);
+            s.setBackground(Color.green);
+            t.setBackground(Color.green);
+            u.setBackground(Color.green);
+            v.setBackground(Color.green);
+            w.setBackground(Color.green);
+            a1.setBackground(Color.green);
+            a2.setBackground(Color.green);
+            a3.setBackground(Color.green);
+            a4.setBackground(Color.green);
+            a5.setBackground(Color.green);
+            fourth fourth = new fourth();
             fourth.setVisible(true);
-        this.dispose();
-                          Color f=panel2.getBackground();
-        if(f.equals(white)){
-            fourth.panel1.setBackground(Color.orange);
-            fourth.panel2.setBackground(Color.white);
-         
-        }
-        
-        }
-        else{
-            if(user[1].equals("d")&&user[2].equals("a")&&user[3].equals("s")&&user[4].equals("t")&&user[5].equals("a")&&
-        user[6].equals("n")&&user[7].equals("d")&&user[8].equals("a")&&user[9].equals("z")){a.setBackground(Color.green);
-            b.setBackground(Color.green);c.setBackground(Color.green);d.setBackground(Color.green);e.setBackground(Color.green);
-            f.setBackground(Color.green);g.setBackground(Color.green);h.setBackground(Color.green);i.setBackground(Color.green);}
-            else {a.setBackground(Color.red);
-            b.setBackground(Color.red);c.setBackground(Color.red);d.setBackground(Color.red);e.setBackground(Color.red);
-            f.setBackground(Color.red);g.setBackground(Color.red);h.setBackground(Color.red);i.setBackground(Color.red);}
-        
-        if(user[10].equals("b")&&user[11].equals("e")&&user[12].equals("n")&&user[13].equals("l")&&user[14].equals("a")&&
-        user[15].equals("e")&&user[16].equals("n")&&user[7].equals("d")){
-        j.setBackground(Color.green);
-            k.setBackground(Color.green);l.setBackground(Color.green);m.setBackground(Color.green);n.setBackground(Color.green);
-            p.setBackground(Color.green);o.setBackground(Color.green);
-        }
-        else{
-         j.setBackground(Color.red);
-            k.setBackground(Color.red);l.setBackground(Color.red);m.setBackground(Color.red);n.setBackground(Color.red);
-            p.setBackground(Color.red);o.setBackground(Color.red);
-        }
-        if(user[17].equals("s")&&user[18].equals("a")&&user[19].equals("r")&&user[20].equals("s")&&user[21].equals("h")&&
-        user[22].equals("i")&&user[23].equals("r")){  r.setBackground(Color.green);
-            q.setBackground(Color.green);s.setBackground(Color.green);t.setBackground(Color.green);u.setBackground(Color.green);
-            v.setBackground(Color.green);w.setBackground(Color.green);}
-        else{
-        r.setBackground(Color.red);
-            q.setBackground(Color.red);s.setBackground(Color.red);t.setBackground(Color.red);u.setBackground(Color.red);
-            v.setBackground(Color.red);w.setBackground(Color.red);
-        }
-        if(user[24].equals("o")&&user[25].equals("r")&&user[26].equals("o")&&
-        user[27].equals("p")&&user[28].equals("i")&&user[18].equals("a")){
-        a1.setBackground(Color.green);a2.setBackground(Color.green);a3.setBackground(Color.green);
-            a4.setBackground(Color.green);a5.setBackground(Color.green);q.setBackground(Color.green);
-        }
-        else{
-         a1.setBackground(Color.red);a2.setBackground(Color.red);a3.setBackground(Color.red);
-            a4.setBackground(Color.red);a5.setBackground(Color.red);q.setBackground(Color.red);
-        }
+            this.dispose();
+            Color f = panel2.getBackground();
+            if (f.equals(white)) {
+                fourth.panel1.setBackground(Color.orange);
+                fourth.panel2.setBackground(Color.white);
+
+            }
+
+        } else {
+            if (user[1].equals("d") && user[2].equals("a") && user[3].equals("s") && user[4].equals("t") && user[5].equals("a")
+                    && user[6].equals("n") && user[7].equals("d") && user[8].equals("a") && user[9].equals("z")) {
+                a.setBackground(Color.green);
+                b.setBackground(Color.green);
+                c.setBackground(Color.green);
+                d.setBackground(Color.green);
+                e.setBackground(Color.green);
+                f.setBackground(Color.green);
+                g.setBackground(Color.green);
+                h.setBackground(Color.green);
+                i.setBackground(Color.green);
+            } else {
+                a.setBackground(Color.red);
+                b.setBackground(Color.red);
+                c.setBackground(Color.red);
+                d.setBackground(Color.red);
+                e.setBackground(Color.red);
+                f.setBackground(Color.red);
+                g.setBackground(Color.red);
+                h.setBackground(Color.red);
+                i.setBackground(Color.red);
+            }
+
+            if (user[10].equals("b") && user[11].equals("e") && user[12].equals("n") && user[13].equals("l") && user[14].equals("a")
+                    && user[15].equals("e") && user[16].equals("n") && user[7].equals("d")) {
+                j.setBackground(Color.green);
+                k.setBackground(Color.green);
+                l.setBackground(Color.green);
+                m.setBackground(Color.green);
+                n.setBackground(Color.green);
+                p.setBackground(Color.green);
+                o.setBackground(Color.green);
+            } else {
+                j.setBackground(Color.red);
+                k.setBackground(Color.red);
+                l.setBackground(Color.red);
+                m.setBackground(Color.red);
+                n.setBackground(Color.red);
+                p.setBackground(Color.red);
+                o.setBackground(Color.red);
+            }
+            if (user[17].equals("s") && user[18].equals("a") && user[19].equals("r") && user[20].equals("s") && user[21].equals("h")
+                    && user[22].equals("i") && user[23].equals("r")) {
+                r.setBackground(Color.green);
+                q.setBackground(Color.green);
+                s.setBackground(Color.green);
+                t.setBackground(Color.green);
+                u.setBackground(Color.green);
+                v.setBackground(Color.green);
+                w.setBackground(Color.green);
+            } else {
+                r.setBackground(Color.red);
+                q.setBackground(Color.red);
+                s.setBackground(Color.red);
+                t.setBackground(Color.red);
+                u.setBackground(Color.red);
+                v.setBackground(Color.red);
+                w.setBackground(Color.red);
+            }
+            if (user[24].equals("o") && user[25].equals("r") && user[26].equals("o")
+                    && user[27].equals("p") && user[28].equals("i") && user[18].equals("a")) {
+                a1.setBackground(Color.green);
+                a2.setBackground(Color.green);
+                a3.setBackground(Color.green);
+                a4.setBackground(Color.green);
+                a5.setBackground(Color.green);
+                q.setBackground(Color.green);
+            } else {
+                a1.setBackground(Color.red);
+                a2.setBackground(Color.red);
+                a3.setBackground(Color.red);
+                a4.setBackground(Color.red);
+                a5.setBackground(Color.red);
+                q.setBackground(Color.red);
+            }
         }
 
- 
+
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void jButton10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton10ActionPerformed
-      
-        third second=new third();
+
+        third second = new third();
         this.setVisible(false);
         second.setVisible(true);
-               Color f=panel1.getBackground();
-        if(f.equals(orange)){
-          second.panel1.setBackground(Color.orange);
-           second.panel2.setBackground(Color.white);
-           
+        Color f = panel1.getBackground();
+        if (f.equals(orange)) {
+            second.panel1.setBackground(Color.orange);
+            second.panel2.setBackground(Color.white);
+
         }
     }//GEN-LAST:event_jButton10ActionPerformed
 
     private void jButton11ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton11ActionPerformed
-        
-        selectgame singleplayer=new selectgame ();
+
+        selectgame singleplayer = new selectgame();
         this.setVisible(false);
         singleplayer.setVisible(true);
-            Color f=panel1.getBackground();
-        if(f.equals(orange)){
-           singleplayer.panel1.setBackground(Color.white);
-           singleplayer.label1.setForeground(Color.red);
-           
+        Color f = panel1.getBackground();
+        if (f.equals(orange)) {
+            singleplayer.panel1.setBackground(Color.white);
+            singleplayer.label1.setForeground(Color.red);
+
         }
     }//GEN-LAST:event_jButton11ActionPerformed
 
-   
     public static void main(String args[]) {
-     
+
         try {
             for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
                 if ("Nimbus".equals(info.getName())) {
@@ -574,7 +644,7 @@ public class third extends javax.swing.JFrame {
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
             java.util.logging.Logger.getLogger(third.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
-       
+
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
                 new third().setVisible(true);

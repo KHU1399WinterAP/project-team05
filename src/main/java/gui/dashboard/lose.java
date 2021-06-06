@@ -1,4 +1,3 @@
-
 package gui.dashboard;
 
 import gui.dashboard.selectgame;
@@ -6,19 +5,15 @@ import java.awt.Color;
 import static java.awt.Color.white;
 import javax.swing.JFrame;
 
-
-
 public class lose extends javax.swing.JFrame {
 
-   
     public lose() {
         initComponents();
-           setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+        setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         setResizable(false);
         setLocationRelativeTo(null);
     }
 
-  
     @SuppressWarnings("unchecked")
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
@@ -79,23 +74,20 @@ public class lose extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-       
 
-        selectgame  singleplayer=new selectgame();
+        selectgame singleplayer = new selectgame();
         this.dispose();
         singleplayer.setVisible(true);
-           Color f=panel1.getBackground();
-        if(f.equals(white)){
-           singleplayer.panel1.setBackground(Color.white);
-           
-           
+        Color f = panel1.getBackground();
+        if (f.equals(white)) {
+            singleplayer.panel1.setBackground(Color.white);
+
         }
 
     }//GEN-LAST:event_jButton1ActionPerformed
 
-  
     public static void main(String args[]) {
-      
+
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
                 new lose().setVisible(true);
